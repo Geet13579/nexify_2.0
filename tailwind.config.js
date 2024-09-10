@@ -9,7 +9,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-geist-sans)'], 
+        mono: ['var(--font-geist-mono)'],
+        regular: ['var(--font-geist-regular)'],
 
+      },
       colors: {
         primary: '#FF6702',
         secondary: '#686868',
@@ -21,10 +26,12 @@ module.exports = {
         mobile: 'url("/mobile (2).png")',
       },
       screens: {
+
+        
         'sm': '240px',
         // => @media (min-width: 640px) { ... }
   
-        'md': '668px',
+        'md': '768px',
         // => @media (min-width: 768px) { ... }
   
         'lg': '1024px',

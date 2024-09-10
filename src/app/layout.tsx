@@ -4,13 +4,19 @@ import "./globals.css";
 import Navbar from '@/components/Navbar';
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "../app/fonts/Satoshi-Black.woff", // Removed the extra slash
   variable: "--font-geist-sans",
-  weight: "100 900",
+  weight: "100 900 200 400 500",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "./fonts/Satoshi-Light.woff",
   variable: "--font-geist-mono",
+  weight: "100 900",
+});
+
+const regular = localFont({
+  src: "./fonts/Satoshi-Regular.woff",
+  variable: "--font-geist-regular",
   weight: "100 900",
 });
 
@@ -27,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable}  ${geistMono.variable} ${regular.variable} antialiased`}
       >
         <Navbar />
         {children}

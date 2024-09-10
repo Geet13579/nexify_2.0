@@ -47,14 +47,14 @@ function Services() {
     return (
         <div>
 
-            <main className=" bg-white 2xl:px-40 sm:px-0  h-auto">
+            <main className=" bg-white 2xl:px-40 sm:px-0 md:px-10  h-auto" id="technology">
                 <div className="w-full flex  ">
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center">
 
-                            <h1 className="tracking-tight font-bold  text-primary  2xl:text-4xl  sm:text-4xl leading-relaxed ">Technology & Intellectual Property</h1>
+                            <h1 className="tracking-tight font-bold  text-primary  2xl:text-4xl  sm:text-2xl leading-relaxed text-center ">Technology & Intellectual Property</h1>
                             <br />
-                            <p className="text-gray-500 mt-2 2xl:text-2xl leading-relaxed  sm:text-xl">
+                            <p className="text-gray-500 mt-2 2xl:text-2xl leading-relaxed  sm:text-sm text-justify font-regular">
 
                                 All technology and intellectual properties are developed in-house, providing us with complete control and ensuring top-notch quality and reliability.
                             </p>
@@ -74,24 +74,24 @@ function Services() {
                             return (
                                 <div key={index} className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
-                                    <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400 h-[300px]">
+                                    <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400  2xl:h-[300px] md:h-[300px] sm:h-auto">
 
-                                        <header className=" leading-tight p-10 md:p-8">
-                                            <ul className='list-none px-5 '>
+                                        <header className=" leading-tight p-10 md:p-8 sm:p-5">
+                                            <ul className='list-none  '>
                                                 <li className="2xl:text-2xl sm:text-lg font-medium pb-2">
 
                                                     <img src={data.icon} className='h-[60px] w-[60px]' alt="images" />
 
                                                 </li>
 
-                                                <li className="2xl:text-2xl sm:text-lg pb-2 font-medium">
+                                                <li className="2xl:text-xl sm:text-lg pb-2 font-medium">
 
                                                     {data.title}
 
                                                 </li>
 
-                                                <li className="text-2xl font-medium">
-                                                    <p className=" text-sm text-gray-500 pb-2 pt-5">
+                                                <li className="font-medium ">
+                                                    <p className="2xl:text-sm sm:text-sm md:text-sm text-gray-500 pb-2 pt-5 font-regular  ">
                                                         {data.desc}
                                                     </p>
                                                 </li>

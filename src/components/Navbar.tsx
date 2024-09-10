@@ -29,9 +29,9 @@ export default function Navbar() {
   return (
     <>
    
-      <nav className="bg-white flex items-center justify-between w-full 2xl:px-40 sm:px-20 h-20 z-40 border-b">
+      <nav className="bg-white flex items-center justify-between font-regular  w-full 2xl:px-40 md:px-10 sm:px-5 h-20 z-40 border-b">
         <Link href={'/'}>
-          <img alt="logo" className='2xl:w-40 sm:w-24' src={'/logo.svg'}  />
+          <img alt="logo" className='2xl:w-40 w-24' src={'/logo.svg'}  />
         </Link>
         <div className="flex items-center gap-10">
           <ul className="hidden lg:flex items-center justify-center gap-8">

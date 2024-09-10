@@ -8,15 +8,20 @@ export const siteData = {
 export const navMenu = [
   {
     label: 'Home',
-    link: '/',
+    link: '#home',
   },
   {
     label: 'Our Services',
-    link: '/',
+    link: '#services',
   },
+  
   {
     label: 'Our Partners',
-    link: '/',
+    link: '#partners',
+  },
+  {
+    label: 'Technology',
+    link: '#technology',
   },
   {
     label: 'Our Team',
