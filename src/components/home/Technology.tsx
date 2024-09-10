@@ -91,7 +91,7 @@ function Services() {
                                                 </li>
 
                                                 <li className="font-medium ">
-                                                    <p className="2xl:text-sm sm:text-sm md:text-sm text-gray-500 pb-2 pt-5 font-regular  ">
+                                                    <p className="2xl:text-lg sm:text-sm text-gray-500 pb-2 pt-5 font-regular  ">
                                                         {data.desc}
                                                     </p>
                                                 </li>

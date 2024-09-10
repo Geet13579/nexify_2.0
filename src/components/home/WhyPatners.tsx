@@ -75,7 +75,7 @@ function Services() {
                                     </ul>
                                     <ul className='list-none px-5'>
                                     <li className="text-2xl font-medium">
-                                    <p className=" text-sm text-gray-500 pt-5 font-regular">
+                                    <p className=" 2xl:text-lg sm:text-sm text-gray-500 pt-5 font-regular">
                                         {data.desc}
                                     </p>
                                     </li>

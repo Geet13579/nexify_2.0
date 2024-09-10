@@ -64,7 +64,7 @@ function Services() {
             
                         </div>
                         <div className='w-[80%] sm:w-[100%] '>
-                            <h1 className='text-2xl md:text-sm sm:text-[12px] xsm:text-[10px] font-semibold'>{data.tittle}</h1>
+                            <h1 className='2xl:text-xl md:text-lg sm:text-[12px] xsm:text-[10px] font-semibold'>{data.tittle}</h1>
                             <p className='text-lg md:text-sm sm:text-[12px] text-gray-500 font-regular'>{data.desc}</p>
             
             

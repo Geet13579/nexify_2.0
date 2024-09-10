@@ -9,7 +9,7 @@ export default function DashboardIntro() {
         <h2 className="text-4xl font-semibold text-primary sm:text-2xl">Company Overview</h2>
         <br/>
 
-        <p className="text-[#6E6E6E] text-xl sm:text-sm  mt-4 leading-normal md:leading-loose text-justify font-regular font-bold">
+        <p className="text-[#6E6E6E] 2xl:text-xl sm:text-sm  mt-4 leading-normal md:leading-loose text-justify font-regular font-bold">
           Nexify World addresses a critical yet frequently overlooked challenge in the B2B vehicle management sector. We recognize that managing 
           vehicle logistics can be both time-consuming and complex for businesses. Our mission is to simplify these processes, 
           allowing our partners to concentrate on their core operations and enable them elevate customer satisfaction.
