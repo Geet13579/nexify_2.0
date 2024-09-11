@@ -7,7 +7,7 @@ export default function Solution() {
 
       <main className="flex flex-col md:flex-row   2xl:px-40 xl:px-10 sm:px-0 py-5  h-50 ">
 
-        <div className="w-full xl:w-1/2 my-4 flex items-center">
+        <div className="w-full xl:w-1/2 my-4 flex items-center justify-center">
 
           <img className="object-contain " src="/our_mission.png" alt="Robot Group" />
 
@@ -41,7 +41,7 @@ export default function Solution() {
 
           </div>
         </div>
-        <div className="w-full  flex justify-end">
+        <div className="w-full  flex 2xl:justify-end sm:justify-center">
           <img className="object-contain " src="/our_vission.png" alt="Robot Group" />
 
 
