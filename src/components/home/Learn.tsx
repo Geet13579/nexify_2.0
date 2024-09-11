@@ -9,16 +9,16 @@ function Learn() {
                 <div className="flex flex-col xl:flex-row items-center  bg-primary pb-5   h-50 ">
 
                     <div className="w-full pb-0 sm:pb-5">
-                        <h1 className="tracking-tight font-bold text-white  2xl:text-5xl xl:text-5xl  sm:text-2xl leading-relaxed text-center ">Learn How <br />Nexify Works!</h1>
+                        <h1 className="tracking-tight font-bold text-white xl:text-[76px] xl:leading-[100px] text-[40px] leading-[70px] xl:text-left text-center ">Learn How <br />Nexify Works!</h1>
 
                     </div>
 
                     <div className="w-full">
-                        <p className="text-white mt-2 2xl:text-3xl leading-relaxed  sm:text-sm text-justify font-regular">Watch our quick video to see how Nexify makes car service easy, efficient, and stress-free for everyone!</p>
+                        <p className="text-white mt-2 lg:text-[36px] lg:leading-[54px] text-[25px] leading-[35px] xl:text-left text-justify font-regular">Watch our quick video to see how<br className='hidden xl:block'/> Nexify makes car service easy, <br className='hidden xl:block'/>efficient, and stress-free for everyone!</p>
                     </div>
                 </div>
 
-                <div className='h-[602px] bg-white rounded-lg'> 
+                <div className='h-[602px] bg-white rounded-lg mt-5'> 
                 <video className="h-full w-full rounded-lg" controls>
       <source
         src="/Nexify Video(1).mp4"

@@ -13,6 +13,9 @@ module.exports = {
         sans: ['var(--font-geist-sans)'], 
         mono: ['var(--font-geist-mono)'],
         regular: ['var(--font-geist-regular)'],
+        medium: ['var(--font-geist-medium)'],
+        bold: ['var(--font-geist-bold)'],
+
 
       },
       colors: {
@@ -23,7 +26,7 @@ module.exports = {
 
       },
       backgroundImage: {
-        mobile: 'url("/mobile (2).png")',
+        mobile: 'url("/Group 481791 1 (1).png")',
       },
       screens: {
 

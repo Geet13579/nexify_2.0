@@ -34,15 +34,15 @@ export default function Navbar() {
           <img alt="logo" className='2xl:w-40 w-24' src={'/logo.svg'}  />
         </Link>
         <div className="flex items-center gap-10">
-          <ul className="hidden lg:flex items-center justify-center gap-8">
+          <ul className="hidden lg:flex  items-center justify-center gap-8">
             {navMenu.map((item) => (
               <Link
                 key={item.label}
                 href={item.link}
-                className={`cursor-pointer hover:text-secondary ${
+                className={`cursor-pointer hover:text-primary ${
                   pathname === item.link
-                    ? 'text-secondary font-semibold'
-                    : 'text-[#787878]'
+                    ? 'font-medium text-[#686868] 2xl:text-[20px] md:text-[16px]'
+                    : 'font-medium text-[#686868] 2xl:text-[20px] md:text-[16px]'
                 }`}
               >
                 {item.label}
@@ -53,7 +53,7 @@ export default function Navbar() {
 
 <Link
       href={'/contact'}
-      className="hidden lg:flex items-center justify-between py-2.5 px-8 text-white bg-primary rounded-lg hover:ring-2 ring-primary hover:bg-transparent hover:text-primary transition-all duration-300 font-semibold relative group"
+      className="hidden lg:flex items-center justify-between py-2.5 px-6 text-white bg-primary rounded-lg hover:ring-2 ring-primary hover:bg-transparent hover:text-primary transition-all duration-300 font-medium 2xl:text-[20px] md:text-[15px] relative group"
     > Contact Us{' '}
       </Link>
 

@@ -52,11 +52,11 @@ function Services() {
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center">
 
-                            <h1 className="tracking-tight font-bold  text-primary  2xl:text-4xl  sm:text-2xl leading-relaxed text-center ">Technology & Intellectual Property</h1>
+                            <h1 className="tracking-tight font-bold  text-primary  xl:text-[46px]  text-[35px] text-center ">Technology</h1>
                             <br />
-                            <p className="text-gray-500 mt-2 2xl:text-2xl leading-relaxed  sm:text-sm text-justify font-regular">
+                            <p className="text-[#827979] mt-2 lg:text-[22px] xl:leading-[33px] text-[18px] leading-[30px] text-justify lg:text-center font-regular">
 
-                                All technology and intellectual properties are developed in-house, providing us with complete control and ensuring top-notch quality and reliability.
+                                All technology and intellectual properties are developed in-house, providing us with <br className='hidden xl:block'/>complete control and ensuring top-notch quality and reliability.
                             </p>
 
                         </div>
@@ -84,14 +84,14 @@ function Services() {
 
                                                 </li>
 
-                                                <li className="2xl:text-xl sm:text-lg pb-2 font-medium">
+                                                <li className="text-[20px] xl:text-[24px] font-medium pt-5">
 
                                                     {data.title}
 
                                                 </li>
 
                                                 <li className="font-medium ">
-                                                    <p className="2xl:text-lg sm:text-sm text-gray-500 pb-2 pt-5 font-regular  ">
+                                                    <p className="pt-5 text-[16px] lg:text-[16px]  text-[#655C5C] leading-[26px]  font-regular  ">
                                                         {data.desc}
                                                     </p>
                                                 </li>

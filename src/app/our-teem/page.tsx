@@ -209,7 +209,7 @@ function page() {
                           
 //                             <h1 className="tracking-tight font-bold text-primary  2xl:text-6xl  sm:text-4xl leading-relaxed ">About Jasmeet Singh</h1>
 //             <br />
-//             <p className="text-gray-500 mt-2 2xl:text-lg leading-relaxed   sm:text-md">
+//             <p className="ray-500 mt-2 2xl:text-lg leading-relaxed   sm:text-md">
 //             Jasmeet Singh is a seasoned entrepreneur and technology leader with over 20 years of experience in the software industry. As the Co -Founder of his own software company, he has successfully led the development and delivery of innovative software solutions that cater to a global clientele. His international experience includes significant work in the UAE, where he gained valuable insights into the Middle Eastern market and built strong business relationships.<br/><br/> His expertise spans across various aspects of software development, project management, and business strategy. With a keen eye for emerging technologies and a commitment to excellence, He continues to drive his company toward growth and success in an ever-evolving digital landscape. Be the mPriti Arya is a qualified interior designer and a successful business person over last 2 decades, she is a NRI and well travelled over many countries across the globe. She has led a team of designers while executing many projects, ran a successful trading business and is an avid investor. Apart from travel she has a strong understanding of current affairs and issues impacting business environment. She also has experience in handling and interacting with multiple ethnicities and nationalities.
 //             </p>
 

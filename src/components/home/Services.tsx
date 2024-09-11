@@ -42,11 +42,11 @@ function Services() {
   <div className="w-full md:w-[70%] flex  ">
     <div className="w-full ">
     <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5">
-            <h1 className="tracking-tight font-bold text-primary  2xl:text-5xl  sm:text-2xl leading-relaxed text-center ">Our Services</h1>
+            <h1 className="tracking-tight font-sens text-primary  xl:text-[46px]  text-[35px] xl:text-left  text-center">Our Services</h1>
             <br />
-            <p className="text-gray-500 mt-2 2xl:text-2xl leading-relaxed  sm:text-sm font-regular">
+            <p className="text-gray-500  xl:text-[22px] xl:leading-[33px] text-[18px] leading-[30px] font-regular text-justify ">
 
-            Nexify World offers a comprehensive suite of vehicle assistance services tailored for B2B partners
+            Nexify World offers a comprehensive suite of vehicle assistance<br  className='hidden xl:block'/> services tailored for B2B partners
             </p>
          
           </div>
@@ -58,14 +58,14 @@ function Services() {
                     return(
                         <>
                          <div className='h-[88px] flex items-center  justify-around'>
-                        <div className='2xl:text-2xl md:text-sm sm:text-[12px] font-semibold w-[20%]'>
+                        {/* <div className='2xl:text-2xl md:text-sm sm:text-[12px] font-semibold w-[20%]'>
                             <h1>0 {index+1}</h1>
             
             
-                        </div>
+                        </div> */}
                         <div className='w-[80%] sm:w-[100%] '>
-                            <h1 className='2xl:text-xl md:text-lg sm:text-[12px] xsm:text-[10px] font-semibold'>{data.tittle}</h1>
-                            <p className='text-lg md:text-sm sm:text-[12px] text-gray-500 font-regular'>{data.desc}</p>
+                            <h1 className='xl:text-[26px]  text-[20px] font-bold'>{data.tittle}</h1>
+                            <p className='xl:text-[16px] text-[#655C5C] text-[14px]   font-regular'>{data.desc}</p>
             
             
                         </div>

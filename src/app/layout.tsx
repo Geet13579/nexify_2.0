@@ -8,7 +8,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900 200 400 500",
 });
-const geistMono = localFont({
+const light = localFont({
   src: "./fonts/Satoshi-Light.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
@@ -17,7 +17,19 @@ const geistMono = localFont({
 const regular = localFont({
   src: "./fonts/Satoshi-Regular.woff",
   variable: "--font-geist-regular",
-  weight: "100 900",
+  weight: "700",
+});
+
+
+const medium = localFont({
+  src: "./fonts/Satoshi-Medium.woff",
+  variable: "--font-geist-medium",
+  weight: "700",
+});
+const bold = localFont({
+  src: "./fonts/Satoshi-Bold.woff",
+  variable: "--font-geist-bold",
+  weight: "700",
 });
 
 export const metadata: Metadata = {
@@ -33,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable}  ${geistMono.variable} ${regular.variable} antialiased`}
+        className={`${geistSans.variable}  ${light.variable} ${regular.variable} ${medium.variable} ${bold.variable} antialiased`}
       >
         <Navbar />
         {children}

@@ -41,11 +41,11 @@ function Services() {
                 <div className="w-full flex  ">
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center">
-                            <h1 className="tracking-tight font-bold  text-primary  2xl:text-4xl  sm:text-2xl leading-relaxed ">Why Partner with Nexify World?</h1>
+                            <h1 className="tracking-tight font-bold  text-primary  lg:text-[46px] text-[33px]">Why Partner with Nexify World?</h1>
                             <br />
-                            <p className="text-gray-500 mt-2 2xl:text-2xl leading-relaxed  sm:text-sm font-regular text-justify">
+                            <p className="text-gray-500 text-[18px] lg:text-[22px] lg:leading-[35px] leading-[30px] font-regular text-justify xl:text-center ">
 
-                                We empower our partners with our Vehicle-Tech Platform, enhancing customer convenience and satisfaction by saving time. And Foster business growth and seamless operations.ss
+                            We empower our partners with a cutting-edge Vehicle-Tech platform, streamlining operations and<br className='hidden xl:block'/> enhancing customer convenience by saving time and driving satisfaction. Through innovative technology,<br className='hidden xl:block'/> we enable seamless operations and foster sustainable business growth for our partners.    
                             </p>
 
                         </div>
@@ -55,7 +55,7 @@ function Services() {
 
                     </div>
                 </div>
-                <div className=" my-12 mx-auto p-5">
+                <div className=" my-5 mx-auto p-5">
                     <div className="flex flex-wrap -mx-1 lg:-mx-4">
                       
                       {WhyPartners.map((data, index)=>{
@@ -63,19 +63,19 @@ function Services() {
                         return(
                             <div key={index} className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                         
-                            <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400">
+                            <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400 ">
 
                                 <header className=" leading-tight p-10 md:p-8">
                                     <ul className='list-disc px-5'>
-                                    <li className="2xl:text-xl sm:text-sm font-medium">
+                                    <li className="text-[20px] xl:text-[24px] font-medium">
                                         
                                             {data.title}
                                  
                                     </li>
                                     </ul>
-                                    <ul className='list-none px-5'>
+                                    <ul className='list-none px-5 py-5'>
                                     <li className="text-2xl font-medium">
-                                    <p className=" 2xl:text-lg sm:text-sm text-gray-500 pt-5 font-regular">
+                                    <p className="text-[16px] lg:text-[16px]  text-[#655C5C] leading-[26px]  font-regular">
                                         {data.desc}
                                     </p>
                                     </li>

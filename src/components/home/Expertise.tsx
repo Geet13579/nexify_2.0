@@ -37,16 +37,18 @@ function Services() {
     return (
         <div>
 
-            <main className=" bg-white 2xl:px-40 sm:px-0 md:px-10 pb-10 h-auto">
+            <main className=" bg-white 2xl:px-40 sm:px-0 md:px-10 h-auto">
                 <div className="w-full flex  ">
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center">
-                            <h1 className="tracking-tight font-bold  text-primary  2xl:text-4xl  sm:text-2xl leading-relaxed ">Our Expertise</h1>
+                            <h1 className="tracking-tight font-sens  xl:text-[46px]  text-[35px] text-primary   ">Our Expertise</h1>
                             <br />
-                            <p className="text-gray-500 mt-2 2xl:text-xl leading-relaxed  sm:text-sm font-regular text-justify">
-
-                            Our team is made up of seasoned professionals with deep expertise in Product Development, Technology, Operations, People &amp; Culture, and Marketing. This diverse skill set allows us to tackle the unique challenges faced by our B2B partners across different automotive sectors.
-                            </p>
+                            <p className="text-[#827979] mt-2 xl:text-[22px] xl:leading-[33px] text-[18px] leading-[30px] font-regular text-justify xl:text-center">
+                            Our team is made up of seasoned professionals with deep expertise in Product
+ Development, Technology, Operations, People <br className='hidden xl:block'/> &amp; Culture, and Marketing. This
+ diverse skill set allows us to tackle the unique challenges faced by our B2B partners<br className='hidden xl:block'/>
+across different automotive sectors.
+                        </p>
 
                         </div>
 
@@ -55,12 +57,13 @@ function Services() {
 
                     </div>
                 </div>
-                <div className='2xl:h-[602px] sm:h-auto my-10 rounded-lg'> 
-                    <img src="/expertise.png" alt="Expertise"  className='object-contain h-full w-full'/>
-                  
-                </div>
+               
 
             </main>
+            <div className='2xl:h-[602px] sm:h-auto my-10 rounded-lg'> 
+                    <img src="/Rectangle 32 (1).png" alt="Expertise"  className='object-contain '/>
+                  
+                </div>
         </div>
     )
 }
