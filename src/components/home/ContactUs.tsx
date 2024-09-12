@@ -90,7 +90,7 @@ function Services() {
 
                                         <li className="text-2xl font-medium  font-regular pb-5">
                                         <div className='rounded-lg border-gray-400 flex border-[1px]  h-[80px] justify-evenly items-center'>
-                                            <img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[7%] '/>
+                                            <img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[30px] '/>
                                             <span className="inline-block align-middle  xl:text-[20px] w-[80%]  text-[18px] font-regular ">
                                               
                                               <p>Mohan Cooperative Estate, Industrial Area , New Delhi - 110044</p>
