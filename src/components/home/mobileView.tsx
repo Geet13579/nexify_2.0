@@ -8,7 +8,7 @@ export default function mobileView() {
 
     <div className="w-full xl:w-1/2 my-4 flex items-center pl-0 sm:pl-[40px] 2xl:justify-start md:justify-center  sm:justify-center">
 
-      <img className="object-contain h-auto h-[500px]" src="/Group 481790 (1).png" alt="Robot Group" />
+      <img className="object-contain h-auto h-[500px]" src="/Group 481811.png" alt="Robot Group" />
 
 
 

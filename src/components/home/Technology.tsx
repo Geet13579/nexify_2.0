@@ -50,7 +50,7 @@ function Services() {
             <main className=" bg-white 2xl:px-60 sm:px-0 md:px-10   h-auto" id="technology">
                 <div className="w-full flex  ">
                     <div className="w-full ">
-                        <div className="w-4/6 sm:w-full xl:p-20 2xl:mt-[100px]  mt-0 text-center">
+                        <div className="w-4/6 sm:w-full xl:px-20  mt-5 text-center">
 
                             <h1 className="tracking-tight font-bold  text-primary  xl:text-[46px]  text-[35px] text-center ">Technology</h1>
                             <br />
