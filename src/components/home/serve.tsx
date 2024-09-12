@@ -2,7 +2,7 @@ import React from 'react'
 
 function serve() {
   return (
-    <main className="flex flex-col xl:flex-row  bg-primary 2xl:px-40 md:px-10  sm:px-5 py-10  h-50 ">
+    <main className="flex flex-col xl:flex-row  bg-primary 2xl:px-60 md:px-10  sm:px-5 py-10  h-50 ">
   <div className="w-full xl:w-1/2 my-4 flex items-center ">
     <div className="w-full ">
       <h1 className="tracking-tight font-bold text-white text-left 2xl:text-start lg:text-[56px] lg:leading-[54px] text-[45px] leading-[35px] leading-relaxed xl:text-left text-center">Who We Serve!</h1>

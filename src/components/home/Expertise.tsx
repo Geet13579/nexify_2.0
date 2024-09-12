@@ -37,7 +37,7 @@ function Services() {
     return (
         <div>
 
-            <main className=" bg-white 2xl:px-40 sm:px-0 md:px-10 h-auto">
+            <main className=" bg-white 2xl:px-60 sm:px-0 md:px-10 h-auto">
                 <div className="w-full flex  ">
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center">
@@ -57,7 +57,7 @@ across different automotive sectors.
 
                     </div>
                 </div>
-               
+              
 
             </main>
             <div className='2xl:h-[602px] sm:h-auto my-10 rounded-lg'> 

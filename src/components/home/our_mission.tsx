@@ -5,7 +5,7 @@ export default function Solution() {
     <>
 
 
-      <main className="flex flex-col lg:flex-row   2xl:px-40 xl:px-10 sm:px-0 py-5  h-50 ">
+      <main className="flex flex-col lg:flex-row   2xl:px-60 xl:px-10 sm:px-0 py-5  h-50 ">
 
         <div className="w-full xl:w-1/2 my-4 flex items-center xl:justify-start justify-center">
 
@@ -16,7 +16,7 @@ export default function Solution() {
         </div>
         <div className="w-full xl:w-1/2 flex justify-end sm:justify-center items-center">
           <div className="xl:w-4/6 w-full p-5">
-            <h1 className="tracking-tight font-bold text-primary xl:text-[56px]  text-[35px]  text-center">Our Mision</h1>
+            <h1 className="tracking-tight font-bold text-primary xl:text-[56px]  text-[35px]  xl:text-left text-center ">Our Mision</h1>
             <br />
             <p className="text-[#6E6E6E] mt-2  font-regular xl:text-[26px] lg:leading-[39px] text-[22px] leading-[35px] text-justify lg:text-left">
 
@@ -28,11 +28,11 @@ export default function Solution() {
       </main>
 
 
-      <main className="flex flex-col-reverse   lg:flex-row   2xl:px-40 xl:px-10 sm:px-0  py-5  h-50 ">
+      <main className="flex flex-col-reverse   lg:flex-row   2xl:px-60 xl:px-10 sm:px-0  py-5  h-50 ">
 
         <div className="w-full  my-4 flex items-center sm:justify-center">
           <div className="xl:w-4/6 w-full p-5">
-            <h1 className="tracking-tight font-bold text-primary xl:text-[56px]  text-[35px]  text-center">Our Vision</h1>
+            <h1 className="tracking-tight font-bold text-primary xl:text-[56px]  text-[35px]  xl:text-left text-center">Our Vision</h1>
             <br />
             <p className="text-[#6E6E6E] mt-2 font-regular  xl:text-[26px] lg:leading-[39px] text-[22px] leading-[35px] text-justify lg:text-left">
 

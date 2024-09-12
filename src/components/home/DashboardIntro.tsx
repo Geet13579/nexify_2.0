@@ -2,7 +2,7 @@ export default function DashboardIntro() {
   return (
  
 
-    <div className="bg-white flex items-center justify-between w-full 2xl:px-40 sm:px-5 md:px-10 xl:px-20 py-[60px]  h-50 z-40 border-b m">
+    <div className="bg-white flex items-center justify-between w-full 2xl:px-60 sm:px-5 md:px-10 xl:px-20 py-[60px]  h-50 z-40 border-b m">
       <div className="w-full ">
     
         <h2 className="text-[46px] md:text-[36px] sm:text-[26px] font-bold text-primary ">About Us</h2>

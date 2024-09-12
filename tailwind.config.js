@@ -27,6 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         mobile: 'url("/Group 481791 1 (1).png")',
+        team:'url("/Rectangle 48 (1).png")'
       },
       screens: {
 

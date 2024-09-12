@@ -3,7 +3,7 @@ import React from 'react'
 function FastReliable() {
   return (
     
-<main className="flex flex-col md:flex-row  bg-primary 2xl:px-40 sm:px-5 md:px-10 xl:px-20 py-10  h-50 ">
+<main className="flex flex-col md:flex-row  bg-primary 2xl:px-60 sm:px-5 md:px-10 xl:px-20 py-10  h-50 ">
   <div className="w-full xl:w-1/2 my-4 flex items-center ">
     <div className="w-full ">
       <h1 className="tracking-tight font-bold text-white xl:text-[76px] xl:leading-[100px] leading-[70px] text-[50px]">Fast, Reliable, <br/>Hassle-Free!</h1>

@@ -37,7 +37,7 @@ function Services() {
     return (
         <div>
 
-            <main className=" bg-white 2xl:px-40 sm:px-0 pt-14  md:px-10 h-auto" id="partners">
+            <main className=" bg-white 2xl:px-60 sm:px-0 pt-14  md:px-10 h-auto" id="partners">
                 <div className="w-full flex  ">
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center">
@@ -56,7 +56,7 @@ function Services() {
                     </div>
                 </div>
                 <div className=" my-5 mx-auto p-5">
-                    <div className="flex flex-wrap -mx-1 lg:-mx-4">
+                    <div className="flex flex-wrap -mx-1 lg:-mx-4 justify-center">
                       
                       {WhyPartners.map((data, index)=>{
 

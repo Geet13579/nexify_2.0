@@ -8,7 +8,7 @@ export const siteData = {
 export const navMenu = [
   {
     label: 'Home',
-    link: '#home',
+    link: '/',
   },
   {
     label: 'Our Services',

@@ -8,6 +8,7 @@ import Together from '@/components/team/Together'
 
 import ContactPage from '@/components/home/ContactUs'
 
+import FastReliable from '@/components/home/FastReliable'
 
 
 
@@ -61,24 +62,8 @@ function page() {
 <About/>
 <AboutTeam/>
 <Together/>
-<main className="flex flex-col xl:flex-row  bg-primary 2xl:px-40 sm:px-10 py-10  h-50 ">
-  <div className="w-full xl:w-1/2 my-4 flex items-center ">
-    <div className="w-full ">
-      <h1 className="hidden sm:block tracking-tight font-bold text-white  2xl:text-6xl  sm:text-2xl leading-relaxed ">Fast, Reliable,<br/> Hassle-Free!</h1>
-      <br/>
-      <p className="text-white mt-2 2xl:text-3xl leading-relaxed  sm:text-sm text-justify font-regular">Connect with top service centers, schedule pick-ups, and track repairs effortlessly.</p>
-      <div className='flex pt-8 '>
-      <img className="object-contain " src="/play.png" alt="play strore" />
+<FastReliable/>
 
-      <img className="object-contain " src="/app.png" alt="app store" />
-
-      </div>
-    </div>
-  </div>
-  <div className="w-full xl:w-1/2 flex justify-end sm:justify-center">
-    <img className="object-contain " src="/Group 481798.png" alt="Robot Group" />
-  </div>
-</main>
 
 <ContactPage/>
 
@@ -327,7 +312,7 @@ function page() {
 
 
 
-//                 <main className="flex flex-col xl:flex-row  bg-primary 2xl:px-40 sm:px-20 py-10 mt-10 h-50 ">
+//                 <main className="flex flex-col xl:flex-row  bg-primary 2xl:px-60 sm:px-20 py-10 mt-10 h-50 ">
 //   <div className="w-full xl:w-1/2 my-4 flex items-center ">
 //     <div className="w-full ">
 //       <h1 className="tracking-tight font-bold text-white  2xl:text-8xl  sm:text-4xl leading-relaxed ">Fast, Reliable, Hassle-Free!</h1>

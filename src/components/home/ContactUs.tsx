@@ -28,7 +28,7 @@ function Services() {
     return (
         <div>
 
-            <main className=" bg-white 2xl:px-40 sm:px-0  md:px-10 h-auto">
+            <main className=" bg-white 2xl:px-60 sm:px-0  md:px-10 h-auto">
 
                 <div className=" my-12 mx-auto p-5 md:p-5 sm:p-0">
                     <div className="flex 2xl:flex-row lg:flex-row md:flex-col sm:flex-col -mx-1 lg:-mx-4">
@@ -66,7 +66,7 @@ function Services() {
                                             <img src="/phone-call (7).png" className='h-[30px] w-[30px]'/>
                                             <span className="inline-block align-middle  xl:text-[20px]  text-[18px] font-regular ">
                                               
-                                              <p> +91 98447 64343</p>
+                                              <p> +91 9625746011</p>
                                              
                                           </span>
                                             </div>
@@ -79,7 +79,7 @@ function Services() {
                                             <img src="/mail (3) 1.png" className='h-[30px] w-[30px]'/>
                                             <span className="inline-block align-middle  xl:text-[20px]  text-[18px] font-regular ">
                                               
-                                              <p> partner@nexifyworld.in</p>
+                                              <p>partner@nexifyworld.in</p>
                                              
                                           </span>
                                             </div>
@@ -93,7 +93,7 @@ function Services() {
                                             <img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[7%] '/>
                                             <span className="inline-block align-middle  xl:text-[20px] w-[80%]  text-[18px] font-regular ">
                                               
-                                              <p>  Mohan Cooperative Estate, Industrial Area , New Delhi - 110044</p>
+                                              <p>Mohan Cooperative Estate, Industrial Area , New Delhi - 110044</p>
                                              
                                           </span>
                                             </div>

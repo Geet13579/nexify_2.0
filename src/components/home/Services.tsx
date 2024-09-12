@@ -38,7 +38,7 @@ function Services() {
   return (
     <div>
 
-<main className="flex flex-col md:flex-row  bg-white 2xl:px-40 md:px-10 sm:px-0 py-16 h-auto"  id="services">
+<main className="flex flex-col md:flex-row  bg-white 2xl:px-60 md:px-10 sm:px-0 py-16 h-auto"  id="services">
   <div className="w-full md:w-[70%] flex  ">
     <div className="w-full ">
     <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5">

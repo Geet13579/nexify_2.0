@@ -3,7 +3,7 @@ import React from 'react'
 function Learn() {
     return (
       
-            <main className="flex flex-col xl:flex-col items:center  bg-primary 2xl:px-40 md:px-10 sm:px-5 py-10   h-50 ">
+            <main className="flex flex-col xl:flex-col items:center  bg-primary 2xl:px-60 md:px-10 sm:px-5 py-10   h-50 ">
 
 
                 <div className="flex flex-col xl:flex-row items-center  bg-primary pb-5   h-50 ">
@@ -21,7 +21,7 @@ function Learn() {
                 <div className='h-[602px] bg-white rounded-lg mt-5'> 
                 <video className="h-full w-full rounded-lg" controls>
       <source
-        src="/Nexify Video(1).mp4"
+        src="/Nexify Video (04).mp4"
         type="video/mp4"
       />
       Your browser does not support the video tag.
