@@ -48,7 +48,11 @@ function Services() {
         <div>
 
             <main className=" bg-white 2xl:px-60 sm:px-0 md:px-10   h-auto" id="technology">
+
+           
                 <div className="w-full flex  ">
+
+               
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full xl:px-20  mt-5 text-center">
 
@@ -66,6 +70,7 @@ function Services() {
 
                     </div>
                 </div>
+
                 <div className=" my-12 mx-auto p-5">
                     <div className="flex flex-wrap -mx-1 lg:-mx-4">
 

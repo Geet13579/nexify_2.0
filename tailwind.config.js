@@ -23,12 +23,17 @@ module.exports = {
         secondary: '#686868',
         tertiary: '#F3DE8A',
         colorLight: '#FFF8F8',
+        gradiant1: '#FF6702',
+        gradiant2: '#FFFFFF',
+
 
       },
       backgroundImage: {
         mobile: 'url("/Group 481791 1 (1).png")',
         team:'url("/Rectangle 48 (1).png")'
+        
       },
+      
       screens: {
 
         
@@ -50,6 +55,8 @@ module.exports = {
   
         // => @media (min-width: 1536px) { ... }
       },
+
+
     },
   },
   plugins: [],

@@ -55,7 +55,7 @@ export default function Navbar() {
    
 
 <Link
-      href={'/contact'}
+      href={'#contact'}
       className="hidden lg:flex items-center justify-between py-2.5 px-6 text-white bg-primary rounded-lg hover:ring-2 ring-primary hover:bg-transparent hover:text-primary transition-all duration-300 font-medium 2xl:text-[20px] md:text-[15px] relative group"
     > Contact Us{' '}
       </Link>

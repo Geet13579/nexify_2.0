@@ -21,7 +21,7 @@ export const navMenu = [
   },
   {
     label: 'Technology',
-    link: '#technology',
+    link: '/technology',
   },
   {
     label: 'Our Team',

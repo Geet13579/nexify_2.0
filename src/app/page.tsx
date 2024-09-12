@@ -23,6 +23,7 @@ import FastReliable from '@/components/home/FastReliable'
 export default function Home() {
   return (
     <>
+    
 
 {/* <Navbar /> */}
 <Header />
@@ -34,7 +35,8 @@ export default function Home() {
 <ServePage/>
 <WhyPartner/>
 <Expertise/>
-<Technology/>
+{/* <Technology/>
+<MobileView/> */}
 <MobileView/>
 <ContactPage/>
 

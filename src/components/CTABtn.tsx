@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function CTABtn() {
   return (
     <Link
-      href={'/contact'}
+      href={'#contact'}
       className="flex items-center justify-between gap-5 px-12 2xl:h-[47px] xl:h-[47px] md:h-[47px]  sm:h-[35px] rounded-full bg-primary text-white font-sens 2xl:text-[20px] hover:ring-2 ring-primary hover:bg-transparent hover:text-primary transition-all duration-300"
     >
       Enquire Now

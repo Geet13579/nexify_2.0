@@ -26,7 +26,7 @@ function Services() {
 
 
     return (
-        <div>
+        <div id="contact">
 
             <main className=" bg-white 2xl:px-60 sm:px-0  md:px-10 h-auto">
 
