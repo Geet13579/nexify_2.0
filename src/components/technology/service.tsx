@@ -9,7 +9,7 @@ function service() {
         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center" >
           <h1 className="tracking-tight font-bold  text-black  lg:text-[46px] text-[33px]">Network Partner Interface</h1>
           <br />
-          <p className="text-gray-500 text-[18px] lg:text-[22px] lg:leading-[35px] leading-[30px] font-regular text-justify xl:text-center ">
+          <p className="text-gray-500 text-[18px] lg:text-[22px] lg:leading-[35px] leading-[30px] font-regular text-justify ">
 
             The Network Partner Interface is a dynamic, multi-device B2B platform designed for seamless task and booking assignment within our technology ecosystem. It empowers our network partners to efficiently manage workflows, monitor performance, and coordinate operations from any location. Additionally, the platform offers robust reporting capabilities, enabling data-driven insights to optimize performance and support strategic decisionmaking for superior operational outcomes.
           </p>
@@ -24,7 +24,7 @@ function service() {
               <div className="xl:w-4/6 w-full p-5">
                 <h1 className="tracking-tight font-bold text-black xl:text-[36px]  text-[30px]  xl:text-left text-center mb-8">Ambassador App</h1>
 
-                <p className="text-[#211E1E] mt-2 font-regular  xl:text-[20px] lg:leading-[39px] text-[18px] leading-[35px] text-justify lg:text-left ">
+                <p className="text-[#211E1E] mt-2 font-regular  xl:text-[20px] lg:leading-[39px] text-[18px] leading-[35px] text-justify ">
 
                   The Ambassadors App enables our Ambassadors to log in from anywhere, view assigned tasks, and manage their duties with ease. With a streamlined interface, it facilitates realtime tracking of assignments and efficient handling our clients’ needs, ensuring that Ambassadors stay organized and responsive to client needs effortlessly.
                 </p>

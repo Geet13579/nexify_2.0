@@ -6,7 +6,7 @@ function about() {
 
     <>
 
-      <main className="flex flex-col md:flex-row   2xl:px-60 sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
+      <main className="flex flex-col md:flex-row   2xl:px-[20rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
 
         <div className="flex flex-wrap ">
 
@@ -18,7 +18,7 @@ function about() {
                 <h1 className="tracking-tight font-bold text-primary  xl:text-[46px]  text-[35px]">Priti Arya</h1>
                 <br />
 
-                <div className='lg:w-4/6 w-full'>
+                <div className=' w-full'>
                 <p className="text-[#686868] mt-2 font-regular xl:text-[20px] text-[18px] xl:leading-[30px] leading-[30px] text-justify">
 
                   Priti Arya is a qualified interior designer and a successful business person over last 2 decades, she is a NRI and well travelled over many countries across the globe. She has led a team of designers while executing many projects, ran a successful trading business and is an avid investor. Apart from travel she has a strong understanding of current affairs and issues impacting business environment. She also has experience in handling and interacting with multiple ethnicities and nationalities.</p>
@@ -97,7 +97,7 @@ function about() {
 
 
 
-      <main className="flex flex-col md:flex-row   2xl:px-60 sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
+      <main className="flex flex-col md:flex-row   2xl:px-[20rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
 
         <div className="flex flex-wrap sm:flex-wrap-reverse">
 

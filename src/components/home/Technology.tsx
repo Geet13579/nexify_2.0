@@ -54,7 +54,7 @@ function Services() {
 
                
                     <div className="w-full ">
-                        <div className="w-4/6 sm:w-full xl:px-20  mt-5 text-left">
+                        <div className="w-4/6 sm:w-full xl:px-5  mt-5 text-left">
 
                             <h1 className="tracking-tight font-bold  text-primary  xl:text-[46px]  text-[30px] text-left ">Technology</h1>
                             <br />

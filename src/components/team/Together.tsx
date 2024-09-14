@@ -2,7 +2,7 @@ import React from 'react'
 
 function Together() {
     return (
-        <main className="flex flex-col md:flex-col   2xl:px-60 sm:px-0 xl:px-20  2xl:py-5 sm:py-0 mb-20  h-50 ">
+        <main className="flex flex-col md:flex-col  2xl:px-[20rem] sm:px-0 xl:px-20  2xl:py-5 sm:py-0 mb-20  h-50 ">
 
             <div className="w-full flex  ">
                 <div className="w-full ">

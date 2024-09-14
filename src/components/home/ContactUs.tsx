@@ -89,9 +89,9 @@ function Services() {
                                         </li>
 
                                         <li className="text-2xl font-medium  font-regular pb-5">
-                                        <div className='rounded-lg border-gray-400 flex border-[1px]  h-[80px] justify-evenly items-center'>
+                                        <div className='rounded-lg border-gray-400 flex border-[1px]  h-[80px] justify-around items-center '>
                                             <img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[30px] '/>
-                                            <span className="inline-block align-middle  xl:text-[20px] w-[80%]  text-[18px] font-regular ">
+                                            <span className="inline-block align-middle  xl:text-[20px] 3xl:w-[85%]  2xl:w-[80%]  w-[80%]   text-[18px] font-regular ">
                                               
                                               <p>Mohan Cooperative Estate, Industrial Area , New Delhi - 110044</p>
                                              
@@ -125,8 +125,8 @@ function Services() {
 
                                         <li className="text-2xl font-medium">
                                             <p className=" text-[16px]  pb-2 pt-5 font-regular text-[#655C5C]">
-                                                © 2024 Classic Interior | Terms & Conditions | Privacy Policy
-                                                Classic Interior All Rights Reserved.
+                                            © 2024 Nexify World| Terms & Conditions | Privacy Policy
+                                            Nexify World All Rights Reserved.
                                             </p>
                                         </li>
 
@@ -141,7 +141,7 @@ function Services() {
 
                         <div className="my-1 px-1 w-full  lg:my-4 lg:px-4 lg:w-[60%] ">
 
-                            <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400 bg-primary h-auto">
+                            <article className="overflow-hidden rounded-[32px] shadow-sm bg-colorLight border border-gray-400 bg-primary h-auto">
 
                                 <header className=" leading-tight p-10 md:p-8 sm:p-4">
                                     <h1 className='text-white text-[40px]  xl:text-[59px] font-bold text-center ' >Get in Touch</h1>

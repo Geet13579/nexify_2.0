@@ -7,35 +7,35 @@ function aboutTeam() {
 
         {
             title: "Masab Furkan",
-            desc: "Senior Product Designer",
+            desc: "Technology - Product",
             icon: '/our_team/Group 481809 (11).png'
         },
 
         {
             title: "Sumeet Prasad",
-            desc: "Senior Architect Designer",
+            desc: "Technology - Architect Design",
             icon: '/our_team/Group 481809 (12).png'
         },
         {
             title: "Kushagra Shukla",
-            desc: "Team Lead",
+            desc: "Technology - Project Development",
             icon: '/our_team/Group 481809 (13).png'
         },
        
         {
             title: "Geetanjali Jangde",
-            desc: "Lead Developer",
+            desc: "Technology - Designer",
             icon: '/our_team/Group 481809 (14).png'
         },
 
         {
             title: "V. Satish",
-            desc: "Full Stack Developer",
+            desc: "Technology Stack",
             icon: '/our_team/Group 481809 (15).png'
         },
         {
             title: "Nikita Agarwal",
-            desc: "Content Stratgist",
+            desc: "Marketing",
             icon: '/our_team/Group 481809 (16).png'
         },
 
@@ -44,7 +44,7 @@ function aboutTeam() {
     return (
         <>
 
-            <main className="flex flex-col md:flex-col   2xl:px-60 sm:px-0 xl:px-20 mt-10 2xl:py-5 sm:py-0   h-50 ">
+            <main className="flex flex-col md:flex-col   2xl:px-[20rem] sm:px-0 xl:px-20 mt-10 2xl:py-5 sm:py-0   h-50 ">
                 <div className="w-full flex  ">
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-left">
@@ -80,7 +80,7 @@ function aboutTeam() {
                                                 {data.title}
 
                                             </h1>
-                                            <p className="text-[#655C5C] text-sm">
+                                            <p className="text-[#655C5C] font-regular mt-2 text-[18px]">
                                                 {data.desc}
 
                                             </p>
