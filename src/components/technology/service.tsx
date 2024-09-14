@@ -20,7 +20,7 @@ function service() {
 
 
           <div className="w-full xl:w-1/2 my-4 flex items-center justify-around">
-            <div className="w-full  my-4 flex items-center sm:justify-center">
+            <div className="w-full  my-4 flex items-center sm:justify-left">
               <div className="xl:w-4/6 w-full p-5">
                 <h1 className="tracking-tight font-bold text-black xl:text-[36px]  text-[30px]  xl:text-left text-center mb-8">Ambassador App</h1>
 

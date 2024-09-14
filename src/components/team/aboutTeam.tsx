@@ -36,7 +36,7 @@ function aboutTeam() {
         {
             title: "Nikita Agarwal",
             desc: "Marketing",
-            icon: '/our_team/Group 481809 (17).png'
+            icon: '/our_team/Group 481809 (18).png'
         },
 
 
