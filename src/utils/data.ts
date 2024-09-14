@@ -12,12 +12,12 @@ export const navMenu = [
   },
   {
     label: 'Our Services',
-    link: '#services',
+    link: '/services',
   },
   
   {
     label: 'Our Partners',
-    link: '#partners',
+    link: '/our_partner',
   },
   {
     label: 'Technology',

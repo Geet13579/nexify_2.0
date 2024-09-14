@@ -10,6 +10,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const [showUpArrow, setShowUpArrow] = useState(false);
 
+  console.log('pathname', pathname)
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 150) {
@@ -36,20 +37,21 @@ export default function Navbar() {
         <div className="flex items-center gap-10">
           <ul className="hidden lg:flex  items-center justify-center gap-8 ">
             {navMenu.map((item) => (
-              <Link
-                key={item.label}
-                href={item.link}
-                className={`cursor-pointer hover:text-primary  ${
-                  pathname === item.link
-                    ? 'font-medium text-[#686868] 2xl:text-[20px] md:text-[16px]'
-                    : 'font-medium text-[#686868] 2xl:text-[20px] md:text-[16px]'
-                }`}
-              >
-                <div
-                className="relative text-black hover:text-primary  hover:scale-110 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-primary before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-primary after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
-                {item.label}
-                </div>
-              </Link>
+            <Link
+            key={item.label}
+            href={item.link}
+            className={`cursor-pointer hover:text-primary ${
+              pathname === item.link || pathname.startsWith(item.link)
+                ? 'font-medium text-red 2xl:text-[20px] md:text-[16px]'
+                : 'font-medium text-[#686868] 2xl:text-[20px] md:text-[16px]'
+            }`}
+          >
+            <div className="relative text-black hover:text-primary hover:scale-110 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-primary before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-primary after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+              {item.label}
+             
+            </div>
+          </Link>
+          
             ))}
           </ul>
    
