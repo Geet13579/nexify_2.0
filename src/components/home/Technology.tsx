@@ -47,18 +47,18 @@ function Services() {
     return (
         <div>
 
-            <main className=" bg-white 2xl:px-60 sm:px-0 md:px-10   h-auto" id="technology">
+            <main className=" bg-white 2xl:px-60 sm:px-5 md:px-10   h-auto" id="technology">
 
            
                 <div className="w-full flex  ">
 
                
                     <div className="w-full ">
-                        <div className="w-4/6 sm:w-full xl:px-20  mt-5 text-center">
+                        <div className="w-4/6 sm:w-full xl:px-20  mt-5 text-left">
 
-                            <h1 className="tracking-tight font-bold  text-primary  xl:text-[46px]  text-[35px] text-center ">Technology</h1>
+                            <h1 className="tracking-tight font-bold  text-primary  xl:text-[46px]  text-[30px] text-left ">Technology</h1>
                             <br />
-                            <p className="text-[#827979] mt-2 lg:text-[22px] xl:leading-[33px] text-[18px] leading-[30px] text-justify lg:text-center font-regular">
+                            <p className="text-[#827979] mt-2 lg:text-[22px] xl:leading-[33px] text-[18px] leading-[30px] text-justify lg:text-left font-regular">
 
                                 All technology and intellectual properties are developed in-house, providing us with <br className='hidden xl:block'/>complete control and ensuring top-notch quality and reliability.
                             </p>

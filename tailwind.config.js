@@ -30,12 +30,15 @@ module.exports = {
       },
       backgroundImage: {
         mobile: 'url("/Group 481791 1 (1).png")',
-        team:'url("/Rectangle 48 (1).png")'
+        team:'url("/Rectangle 48 (1).png")',
+        technology:'url("/techonolgy/Group 481849.png")'
+
         
       },
       
       screens: {
 
+      
         
         'sm': '240px',
         // => @media (min-width: 640px) { ... }
