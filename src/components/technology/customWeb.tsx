@@ -18,7 +18,7 @@ function service() {
   <div className="lg:w-4/5 w-full p-5">
     <h1 className="tracking-tight font-bold text-black lg:text-left text-center xl:text-[36px]  text-[25px] ">Customer Web<br className='hidden md:block'/> Interface</h1>
     <br />
-    <p className="text-[#211E1E] mt-2  text-center xl:text-[20px] lg:leading-[39px] text-[18px] leading-[35px] font-regular  text-justify">
+    <p className="text-[#211E1E] mt-2  text-center xl:text-[20px] lg:leading-[33px] text-[18px] leading-[33px] font-regular  text-justify">
 
     Our Customer Web Interface is a B2B2C application that allows end users to track their vehicles in real time, access a digital inventory of services, and view detailed invoices. This intuitive platform ensures full transparency and offers a seamless experience for users to manage all
     </p>

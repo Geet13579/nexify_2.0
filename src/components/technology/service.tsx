@@ -24,7 +24,7 @@ function service() {
               <div className="xl:w-4/6 w-full p-5">
                 <h1 className="tracking-tight font-bold text-black xl:text-[36px]  text-[30px]  xl:text-left text-center mb-8">Ambassador App</h1>
 
-                <p className="text-[#211E1E] mt-2 font-regular  xl:text-[20px] lg:leading-[39px] text-[18px] leading-[35px] text-justify ">
+                <p className="text-[#211E1E] mt-2 font-regular  xl:text-[20px] lg:leading-[33px] text-[18px] leading-[33px] text-justify ">
 
                   The Ambassadors App enables our Ambassadors to log in from anywhere, view assigned tasks, and manage their duties with ease. With a streamlined interface, it facilitates realtime tracking of assignments and efficient handling our clients’ needs, ensuring that Ambassadors stay organized and responsive to client needs effortlessly.
                 </p>
