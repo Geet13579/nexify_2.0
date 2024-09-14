@@ -4,9 +4,9 @@ import Link from 'next/link';
 function service() {
   return (
     <>
-      <main className="  2xl:px-60 sm:px-5 md:px-10 xl:px-20 py-10  h-50 ">
+      <main className=" 2xl:px-[20rem] 2xl:px-60 sm:px-5 md:px-10 3xl:mt-40 2xl:mt-40 xl:mt-40 lg:mt-48 sm:mt-48 md:mt-48  h-50 ">
 
-        <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-center" >
+        <div className="w-4/6 sm:w-full text-center" >
           <h1 className="tracking-tight font-bold  text-black  lg:text-[46px] text-[33px]">Network Partner Interface</h1>
           <br />
           <p className="text-gray-500 text-[18px] lg:text-[22px] lg:leading-[35px] leading-[30px] font-regular text-justify ">

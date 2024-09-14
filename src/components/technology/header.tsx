@@ -2,9 +2,9 @@ import React from 'react'
 
 function header() {
   return (
-    <div className='3xl:h-[100vh] 2xl:h-[84vh] xl:h-[66vh] lg:h-[54vh] md:h-[44vh] sm:h-[34vh] bg-gradient-to-b from-[#FF6702] mb-28  to-[#FFFFFF]'>
+    <div className='3xl:h-[100vh] 2xl:h-[84vh] xl:h-[66vh] lg:h-[54vh] md:h-[44vh] sm:h-[34vh]  bg-gradient-to-b from-[#FF6702]   to-[#FFFFFF]'>
       <div className='py-20 xl:px-60 md:px-28 sm:px-10'>
-        <button className='bg-white rounded-lg p-[15px] xl:text-[26px] lg:text-[20px] md:text-[18px] sm:text-[15px] 360px:text-[18px] text-[#211E1E] font-bold'>Dashboard & App Together</button>
+        <button className='bg-white rounded-lg py-[10px] px-[12px]  xl:text-[26px] lg:text-[20px] md:text-[18px] sm:text-[15px] 360px:text-[18px] text-[#211E1E] font-bold'>Dashboard & App Together</button>
         <h2 className='text-white xl:text-[56px] lg:text-[40px] md:text-[40px] sm:text-[20px]  font-bold mt-4 xl:leading-[68px] lg:leading-[55px] md:leading-[53px] sm:leading-[35px]' >Network Partner Interface <br className=''/>Use Anytime, Anywhere</h2>
 
        

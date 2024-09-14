@@ -28,7 +28,7 @@ function Services() {
     return (
         <div id="contact">
 
-            <main className=" bg-white 2xl:px-60 sm:px-0  md:px-10 h-auto">
+            <main className=" bg-white  3xl:px-[20rem] 2xl:px-40  sm:px-0  md:px-10 h-auto">
 
                 <div className=" my-12 mx-auto p-5 md:p-5 sm:p-0">
                     <div className="flex 2xl:flex-row lg:flex-row md:flex-col sm:flex-col -mx-1 lg:-mx-4">
@@ -139,7 +139,7 @@ function Services() {
                         </div>
 
 
-                        <div className="my-1 px-1 w-full  lg:my-4 lg:px-4 lg:w-[60%] ">
+                        <div className="my-1 px-2 w-full  lg:my-4 lg:px-4 lg:w-[60%] ">
 
                             <article className="overflow-hidden rounded-[32px] shadow-sm bg-colorLight border border-gray-400 bg-primary h-auto">
 
@@ -197,7 +197,7 @@ function Services() {
                                         </div>
 
                                         <button type="submit" className='w-full 2xl:h-[50px] sm:h-[30px] bg-white rounded-full text-primary font-bold '>Enquire Now</button>
-                                        <p className=' 2xl:text-md sm:text-sm px-5 p-2 text-white font-regular'>By contacting us, you agree to our Terms of Service and privacy policy.</p>
+                                        <p className=' 2xl:text-md sm:text-sm px-5 p-2 text-white font-regular text-center'>By contacting us, you agree to our Terms of Service and privacy policy.</p>
 
 
                                     </form>
