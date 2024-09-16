@@ -205,7 +205,7 @@ function Services() {
                                             </div>
                                         </div>
 
-                                        <button type="submit" className='w-full 2xl:h-[50px] sm:h-[30px] bg-white rounded-full text-primary font-bold '>Enquire Now</button>
+                                        <button type="submit" className='w-[80%] mx-auto p-5 flex justify-center items-center 2xl:h-[50px] sm:h-[30px] bg-white rounded-full text-primary font-bold '>Enquire Now</button>
                                         <p className=' 2xl:text-md sm:text-sm px-5 p-2 text-white font-regular text-center'>By contacting us, you agree to our Terms of Service and privacy policy.</p>
 
 
