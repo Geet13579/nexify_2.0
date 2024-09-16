@@ -93,7 +93,7 @@ function Services() {
                                             <img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[30px] '/>
                                             <span className="inline-block align-middle  xl:text-[20px] 3xl:w-[85%]  2xl:w-[80%]  w-[80%]   text-[18px] font-regular ">
                                               
-                                              <p>Mohan Cooperative Estate, Industrial Area , New Delhi - 110044</p>
+                                              <p>Mohan Cooperative Estate, Industrial Area, New Delhi - 110044</p>
                                              
                                           </span>
                                             </div>
