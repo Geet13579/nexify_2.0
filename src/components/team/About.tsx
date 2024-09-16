@@ -6,7 +6,7 @@ function about() {
 
     <>
 
-      <main className="flex flex-col md:flex-row   2xl:px-[20rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
+      <main className="flex flex-col md:flex-row   3xl:px-[20rem] 2xl:px-[15rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
 
         <div className="flex flex-wrap ">
 
@@ -97,11 +97,11 @@ function about() {
 
 
 
-      <main className="flex flex-col md:flex-row   2xl:px-[20rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
+      <main className="flex flex-col md:flex-row   3xl:px-[20rem] 2xl:px-[15rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
 
         <div className="flex flex-wrap sm:flex-wrap-reverse">
 
-          <div className="my-1  w-full md:full lg:my-4  lg:w-1/2 flex 2xl:justify-start sm:justify-center">
+          <div className="my-1  w-full md:full lg:my-4  lg:w-1/2 flex lg:justify-start justify-center">
 
             <article className="overflow-hidden rounded-lg ">
 

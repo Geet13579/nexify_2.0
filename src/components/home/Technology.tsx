@@ -5,38 +5,43 @@ const WhyPartners = [
     {
         title: "Network Partner Interface",
         desc: "Features Google Maps integration, HTTPS security, a reporting module, and a progressive, mobile-responsive web app. It also supports chauffeur services for stockyard movement and test-drive management.",
-        icon: '/techonolgy/image 47.png'
+        icon: '/techonolgy/image 51.png'
+
     },
 
     {
         title: "Support Module",
         desc: "Integrates multiple telephony systems, offers a new UI/UX to boost productivity, provides prompt-based ticket resolution, and includes agent quality analysis reports.",
-        icon: '/techonolgy/image 48.png'
+        icon: '/techonolgy/image 52.png'
 
     },
 
     {
         title: "Manufacturer Dashboard",
         desc: "Integrates with Dealer Management Systems, provides PAN India dealer information, digital feedback analysis, and booking trend insights..",
-        icon: '/techonolgy/image 49.png'
+        icon: '/techonolgy/image 53.png'
+
     },
 
     {
         title: "Customer App",
         desc: "Includes a white-labeled Progressive Web App with pick-up & drop services, DRSA, and a new UI/UX.",
-        icon: '/techonolgy/image 51.png'
+        icon: '/techonolgy/image 49.png'
+
     },
 
 
     {
         title: "Fleet Partner Interface",
         desc: "Supports multi-city bookings, access to multiple service centers, and API integration.",
-        icon: '/techonolgy/image 52.png'
+        icon: '/techonolgy/image 48.png'
+
     },
     {
         title: "Database",
         desc: "Features scalability, de-normalized tables, and adaptability for internationalization.",
-        icon: '/techonolgy/image 53.png'
+        icon: '/techonolgy/image 47.png'
+
     },
 
 ]

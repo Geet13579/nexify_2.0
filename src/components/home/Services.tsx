@@ -64,7 +64,7 @@ function Services() {
             
                         </div> */}
                         <div className='w-[80%] sm:w-[100%] '>
-                            <h1 className='xl:text-[26px]  text-[20px] font-bold'>{data.tittle}</h1>
+                            <h1 className='xl:text-[25px]  text-[20px] font-bold'>{data.tittle}</h1>
                             <p className='xl:text-[16px] text-[#655C5C] text-[14px]   font-regular'>{data.desc}</p>
             
             

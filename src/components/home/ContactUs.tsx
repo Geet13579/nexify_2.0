@@ -89,7 +89,7 @@ function Services() {
                                         </li>
 
                                         <li className="text-2xl font-medium  font-regular pb-5">
-                                        <div className='rounded-lg border-gray-400 flex border-[1px]  h-[80px] justify-around items-center '>
+                                        <div className='rounded-lg border-gray-400 flex border-[1px]  md:h-[80px] h-auto justify-around items-center '>
                                             <img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[30px] '/>
                                             <span className="inline-block align-middle  xl:text-[20px] 3xl:w-[85%]  2xl:w-[80%]  w-[80%]   text-[18px] font-regular ">
                                               
@@ -107,16 +107,25 @@ function Services() {
                                             </p>
                                             <ul className='flex flex-row '>
                                                 <li className='mr-5'>
+                                                    <a href='https://www.instagram.com/nexifyworld.in/' target="blank">
                                                     <img src="/social_media/insta.png" className=' xl:h-auto h-[40px]' />
+
+                                                    </a>
                                                 </li>
                                                 <li className='mr-5'>
+                                                <a href='/#' target="blank">
                                                     <img src="/social_media/google.png" className='xl:h-auto h-[40px]'/>
+                                                    </a>
                                                 </li>
                                                 <li className='mr-5'>
+                                                <a href='https://www.linkedin.com/company/nexify-world/' target="blank">
                                                     <img src="/social_media/linkdin.png" className='xl:h-auto h-[40px]'/>
+                                                    </a>
                                                 </li>
                                                 <li className='mr-5'>
+                                                <a href='/#' target="blank">
                                                     <img src="/social_media/twitter.png" className='xl:h-auto h-[40px]'/>
+                                                    </a>
                                                 </li>
 
                                             </ul>

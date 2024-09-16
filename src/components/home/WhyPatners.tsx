@@ -61,11 +61,11 @@ function Services() {
                       {WhyPartners.map((data, index)=>{
 
                         return(
-                            <div key={index} className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            <div key={index} className="my-2 px-2 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                         
                             <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400 ">
 
-                                <header className=" leading-tight p-10 md:p-8">
+                                <header className=" leading-tight p-10 md:p-8 md:h-[210px] h-auto">
                                     <ul className='list-disc px-5'>
                                     <li className="text-[20px] xl:text-[24px] font-medium">
                                         

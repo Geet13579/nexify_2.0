@@ -3,7 +3,7 @@ import React from 'react'
 function Learn() {
     return (
       
-            <main className="flex flex-col xl:flex-col items:center  bg-primary 2xl:px-60 md:px-10 sm:px-5 py-10   h-50 ">
+            <main className="flex flex-col xl:flex-col items:center  bg-primary 2xl:px-60 md:px-10 sm:px-5 py-14   h-50 ">
 
 
                 <div className="flex flex-col xl:flex-row items-center  bg-primary pb-5   h-50 ">

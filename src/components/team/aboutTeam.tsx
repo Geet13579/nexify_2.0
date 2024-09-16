@@ -44,7 +44,7 @@ function aboutTeam() {
     return (
         <>
 
-            <main className="flex flex-col md:flex-col   2xl:px-[20rem] sm:px-0 xl:px-20 mt-10 2xl:py-5 sm:py-0   h-50 ">
+            <main className="flex flex-col md:flex-col   3xl:px-[20rem] 2xl:px-[15rem] sm:px-0 xl:px-20 mt-10 2xl:py-5 sm:py-0   h-50 ">
                 <div className="w-full flex  ">
                     <div className="w-full ">
                         <div className="w-4/6 sm:w-full 2xl:p-0 sm:p-5 text-left">
@@ -70,7 +70,7 @@ function aboutTeam() {
                             return (
                                 <div key={index} className="my-1 px-4 w-full  lg:my-4 lg:px-4 lg:w-1/3 md:w-1/2 flex justify-center">
 
-                                    <article className="overflow-hidden rounded-lg h-[440px] w-[350px] ">
+                                    <article className="overflow-hidden rounded-lg h-[440px] md:w-[350px] w-full">
                                         <a href="#">
                                             <img alt="Placeholder" className="block h-auto w-full" src={data.icon} />
                                         </a>
