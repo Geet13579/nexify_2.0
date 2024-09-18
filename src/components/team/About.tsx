@@ -1,4 +1,8 @@
+'use client'
 import React from 'react'
+import {motion, AnimatePresence} from 'framer-motion'
+
+import {fadeIn} from '@/app/animation/variant'
 
 function about() {
   return (
@@ -6,9 +10,13 @@ function about() {
 
     <>
 
-      <main className="flex flex-col md:flex-row   3xl:px-[20rem] 2xl:px-[15rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
+<motion.main
+    variants={fadeIn("right", 0.5)}
+    initial="hidden"
+    transition={{ type: "spring", stiffness: 100 }}
+    whileInView={"show"} className="flex flex-col md:flex-row   3xl:px-[20rem] 2xl:px-[15rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
 
-        <div className="flex flex-wrap ">
+      <div  className="flex flex-wrap ">
 
           <div className="my-1  w-full md:full lg:my-4  lg:w-1/2 flex justify-start">
 
@@ -93,11 +101,16 @@ function about() {
 
         
       
-      </main>
+      </motion.main>
 
 
 
-      <main className="flex flex-col md:flex-row   3xl:px-[20rem] 2xl:px-[15rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
+      <motion.main
+    variants={fadeIn("left", 0.2)}
+    initial="hidden"
+    transition={{ type: "spring", stiffness: 100 }}
+    
+    whileInView={"show"} className="flex flex-col md:flex-row   3xl:px-[20rem] 2xl:px-[15rem] sm:px-5 xl:px-20  2xl:py-5 sm:py-10   h-50 ">
 
         <div className="flex flex-wrap sm:flex-wrap-reverse">
 
@@ -182,7 +195,7 @@ function about() {
         </div>
 
         
-      </main>
+      </motion.main>
     </>
   )
 }

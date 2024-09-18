@@ -1,5 +1,9 @@
-import React from 'react'
 
+'use client'
+import React from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+
+import { fadeIn } from '@/app/animation/variant'
 const WhyPartners = [
 
     {
@@ -47,6 +51,12 @@ const WhyPartners = [
 ]
 
 
+const variants = {
+    hidden: { opacity: 0, scale: 0 },
+    visible: { opacity: 1, scale: 1 },
+    hover: { scale: 1.2, transition: { duration: 0.5 } }
+  };
+
 
 function Services() {
     return (
@@ -54,22 +64,28 @@ function Services() {
 
             <main className=" bg-white 2xl:px-60 sm:px-5 md:px-10   h-auto" id="technology">
 
-           
+
                 <div className="w-full flex  ">
 
-               
+
                     <div className="w-full ">
-                        <div className="w-4/6 sm:w-full xl:px-5  mt-5 text-left">
+                        <AnimatePresence>
+                            <motion.div
+                                variants={fadeIn("up", 0.2)}
+                                initial="hidden"
+                                whileInView={"show"}>
+                                <div className="w-4/6 sm:w-full xl:px-5  mt-5 text-left">
 
-                            <h1 className="tracking-tight font-bold  text-primary  xl:text-[46px]  text-[30px] text-left ">Technology</h1>
-                            <br />
-                            <p className="text-[#827979] mt-2 lg:text-[22px] xl:leading-[33px] text-[18px] leading-[30px] text-justify lg:text-left font-regular">
+                                    <h1 className="tracking-tight font-bold  text-primary  xl:text-[46px]  text-[30px] text-left ">Technology</h1>
+                                    <br />
+                                    <p className="text-[#827979] mt-2 lg:text-[22px] xl:leading-[33px] text-[18px] leading-[30px] text-justify lg:text-left font-regular">
 
-                                All technology and intellectual properties are developed in-house, providing us with <br className='hidden xl:block'/>complete control and ensuring top-notch quality and reliability.
-                            </p>
+                                        All technology and intellectual properties are developed in-house, providing us with <br className='hidden xl:block' />complete control and ensuring top-notch quality and reliability.
+                                    </p>
 
-                        </div>
-
+                                </div>
+                            </motion.div>
+                        </AnimatePresence>
 
 
 
@@ -83,33 +99,43 @@ function Services() {
 
                             return (
                                 <div key={index} className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                                    <AnimatePresence>
+                                        <motion.div
+                                            variants={index == 0 || index == 1 || index == 2 ? fadeIn("down", 0.2) : fadeIn("up", 0.2)}
+                                            initial="hidden"
+                                            whileInView={"show"}>
 
-                                    <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400  2xl:h-[300px] md:h-[300px] sm:h-auto">
+                                            <motion.article
+                                            whileHover={{scale:1.1}}
+                                            className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400  2xl:h-[300px] md:h-[300px] sm:h-auto ">
 
-                                        <header className=" leading-tight p-10 md:p-8 sm:p-5">
-                                            <ul className='list-none  '>
-                                                <li className="2xl:text-2xl sm:text-lg font-medium pb-2">
+                                                <header className=" leading-tight p-10 md:p-8 sm:p-5">
+                                                    <ul className='list-none  '>
+                                                        <li className="2xl:text-2xl sm:text-lg font-medium pb-2">
 
-                                                    <img src={data.icon} className='h-[60px] w-[60px]' alt="images" />
+                                                            <img src={data.icon} className='h-[60px] w-[60px]' alt="images" />
 
-                                                </li>
+                                                        </li>
 
-                                                <li className="text-[20px] xl:text-[24px] font-medium pt-5">
+                                                        <li className="text-[20px] xl:text-[24px] font-medium pt-5">
 
-                                                    {data.title}
+                                                            {data.title}
 
-                                                </li>
+                                                        </li>
 
-                                                <li className="font-medium ">
-                                                    <p className="pt-5 text-[16px] lg:text-[16px]  text-[#655C5C] leading-[26px]  font-regular  ">
-                                                        {data.desc}
-                                                    </p>
-                                                </li>
-                                            </ul>
+                                                        <li className="font-medium ">
+                                                            <p className="pt-5 text-[16px] lg:text-[16px]  text-[#655C5C] leading-[26px]  font-regular  ">
+                                                                {data.desc}
+                                                            </p>
+                                                        </li>
+                                                    </ul>
 
-                                        </header>
+                                                </header>
+                                        
 
-                                    </article>
+                                            </motion.article>
+                                        </motion.div>
+                                    </AnimatePresence>
 
                                 </div>
 

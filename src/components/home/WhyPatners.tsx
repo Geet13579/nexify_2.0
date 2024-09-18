@@ -1,4 +1,7 @@
+'use client'
 import React from 'react'
+import { AnimatePresence, motion } from "framer-motion";
+import {fadeIn} from '@/app/animation/variant'
 
 const WhyPartners = [
 
@@ -61,7 +64,14 @@ function Services() {
                       {WhyPartners.map((data, index)=>{
 
                         return(
-                            <div key={index} className="my-2 px-2 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            <motion.div
+                            variants={fadeIn(index==0|| index==3 ? "right":index==2 || index== 4? "left" :index==1? "top":"", 0.2)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            whileHover={{scale:1.1}}
+
+                            key={index} className="my-2 px-2 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                        
                         
                             <article className="overflow-hidden rounded-lg shadow-sm bg-colorLight border border-gray-400 ">
 
@@ -84,7 +94,7 @@ function Services() {
 
                             </article>
                             
-                        </div>
+                        </motion.div>
 
                         )
                       })}

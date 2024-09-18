@@ -4,7 +4,7 @@ import Navbar_Mobile from './Navbar_Mobile';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion, useScroll } from 'framer-motion';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <>
    
-      <nav className="bg-white flex items-center justify-between font-regular  w-full 2xl:px-40 md:px-10 sm:px-5 h-20 z-40 border-b sticky overflow-hidden top-0">
+      <nav  className="bg-white flex items-center justify-between font-regular  w-full 2xl:px-40 md:px-10 sm:px-5 h-20 z-40 border-b sticky overflow-hidden top-0">
         <Link href={'/'}>
           <img alt="logo" className='2xl:w-40 w-24' src={'/logo.svg'}  />
         </Link>

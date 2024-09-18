@@ -1,5 +1,9 @@
+'use client'
 import React from 'react'
 import Link from 'next/link';
+import {motion, AnimatePresence} from 'framer-motion'
+
+import {fadeIn} from '@/app/animation/variant'
 
 function service() {
   return (
@@ -8,13 +12,29 @@ function service() {
 <main className="flex flex-col-reverse   lg:flex-row md:flex-row md:px-10  2xl:px-60 sm:px-0 py-5 h-50 bg-cover">
 
 <div className="w-full xl:w-1/2 my-4 flex items-center pl-0 sm:pl-[40px] 2xl:justify-start md:justify-center  sm:justify-center">
+<AnimatePresence>
+<motion.div
+variants={fadeIn("right", 0.2)}
+initial="hidden"
+whileInView={"show"}
 
+>
   <img className="object-contain h-auto h-[500px]" src="/techonolgy/Group 481811 (5).png" alt="Robot Group" />
 
 
-
+  </motion.div>
+  </AnimatePresence>
 </div>
 <div className="w-full xl:w-1/2 flex justify-end xl:justify-center items-center ">
+<AnimatePresence>
+<motion.div
+variants={fadeIn("left", 0.2)}
+initial="hidden"
+whileInView={"show"}
+
+>
+
+
   <div className="lg:w-4/5 w-full p-5">
     <h1 className="tracking-tight font-bold text-black lg:text-left text-center xl:text-[36px]  text-[25px] ">Customer Web<br className='hidden md:block'/> Interface</h1>
     <br />
@@ -24,6 +44,10 @@ function service() {
     </p>
  
   </div>
+
+</motion.div>
+</AnimatePresence>
+
 </div>
 </main>
 </>

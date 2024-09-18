@@ -1,9 +1,19 @@
+'use client'
+
 import React from 'react'
+
+import {motion, AnimatePresence} from 'framer-motion'
+import {fadeIn} from '@/app/animation/variant'
+
 
 function serve() {
   return (
     <main className="flex flex-col xl:flex-row  bg-primary 2xl:px-60 md:px-10 mb-14  sm:px-5 py-10  h-50 ">
-  <div className="w-full xl:w-1/2 my-4 flex items-center ">
+  <motion.div
+    variants={fadeIn("right", 0.5)}
+    initial="hidden"
+    transition={{ type: "spring", stiffness: 100 }}
+    whileInView={"show"} className="w-full xl:w-1/2 my-4 flex items-center ">
     <div className="w-full ">
       <h1 className="tracking-tight font-bold text-white text-left 2xl:text-start lg:text-[56px] lg:leading-[54px] text-[45px] leading-[35px] leading-relaxed xl:text-left text-center">Who We Serve!</h1>
       <br/>
@@ -13,10 +23,14 @@ function serve() {
       </p>
    
     </div>
-  </div>
-  <div className="w-full xl:w-1/2 flex justify-center 2xl:justify-end ">
-    <img className="object-contain " src="/serve.png" alt="Robot Group" />
-  </div>
+    </motion.div>
+    <motion.div
+    variants={fadeIn("right", 0.5)}
+    initial="hidden"
+    transition={{ type: "spring", stiffness: 100 }}
+    whileInView={"show"} className="w-full xl:w-1/2 flex justify-center 2xl:justify-end ">
+  <img  className="object-contain " src="/serve.png" alt="Robot Group" />
+  </motion.div>
 </main>
   )
 }

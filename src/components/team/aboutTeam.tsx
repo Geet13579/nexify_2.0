@@ -1,5 +1,8 @@
+'use client'
 import React from 'react'
+import {motion, AnimatePresence} from 'framer-motion'
 
+import {fadeIn} from '@/app/animation/variant'
 function aboutTeam() {
 
     const teamData = [
@@ -68,9 +71,14 @@ function aboutTeam() {
 
                         {teamData.map((data, index) => {
                             return (
-                                <div key={index} className="my-1 px-4 w-full  lg:my-4 lg:px-4 lg:w-1/3 md:w-1/2 flex justify-center">
+                                <motion.main
+                                variants={index===0 || index==1|| index== 2 ? fadeIn("right", 0.2): fadeIn("left", 0.2)}
+                                initial="hidden"
+                                whileInView={"show"}
+                                whileHover={{scale:1.1}}
+                                key={index} className="my-1 px-4 w-full  lg:my-4 lg:px-4 lg:w-1/3 md:w-1/2 flex justify-center">
 
-                                    <article className="overflow-hidden rounded-lg h-[440px] md:w-[350px] w-full">
+                                    <article className="overflow-hidden rounded-lg h-auto md:w-[350px] w-full">
                                         <a href="#">
                                             <img alt="Placeholder" className="block h-auto w-full" src={data.icon} />
                                         </a>
@@ -88,7 +96,7 @@ function aboutTeam() {
 
                                     </article>
 
-                                </div>
+                                </motion.main>
 
                             )
                         })}

@@ -28,6 +28,15 @@ module.exports = {
 
 
       },
+      animation: {
+        fadeIn: "fadeIn 2s ease-in forwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
+        }},
+        
       backgroundImage: {
         mobile: 'url("/Group 481791 1 (1).png")',
         team:'url("/Rectangle 48 (1).png")',

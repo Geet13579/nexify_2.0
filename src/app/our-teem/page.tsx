@@ -16,43 +16,7 @@ import FastReliable from '@/components/home/FastReliable'
 function page() {
 
 
-    const teamData= [
-     
-
-            {
-                title: "Masab Furkan",
-                desc: "Senior Product Designer",
-                icon: '/our_team/Group 481809 (3).png'
-            },
-        
-            {
-                title: "Sumeet Prasad",
-                desc: "Senior Architect Designer",
-                icon: '/our_team/Group 481809 (4).png'
-            },
-            {
-                title: "Kushagra Shukla",
-                desc: "Team Lead",
-                icon: '/our_team/Group 481809 (5).png'
-            },
-            {
-                title: "V. Satish",
-                desc: "Full stack Developer",
-                icon: '/our_team/Group 481809 (6).png'
-            },
-            {
-                title: "Geetanjali Jangde",
-                desc: "Lead Developer",
-                icon: '/our_team/Group 481809 (7).png'
-            },
-            {
-                title: "Nikita Agarwal",
-                desc: "Content Writer",
-                icon: '/our_team/Group 481809 (8).png'
-            },
-        
-        
-        ]
+   
     return (
 
 

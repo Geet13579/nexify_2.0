@@ -1,12 +1,23 @@
+'use client'
 import React from 'react'
 import Link from 'next/link';
+import {motion, AnimatePresence} from 'framer-motion'
+
+import {fadeIn} from '@/app/animation/variant'
 
 function service() {
   return (
     <>
-      <main className=" 3xl:px-[20rem] 2xl:px-[15rem] 2xl:px-60 sm:px-5 md:px-10 3xl:mt-40 2xl:mt-40 xl:mt-40 lg:mt-48 sm:mt-48 md:mt-48  h-50 ">
+      <main className=" 3xl:px-[20rem] 2xl:px-[15rem] 2xl:px-60 sm:px-5 md:px-10 mt-10  h-50 ">
+      <AnimatePresence>
+<motion.div
+variants={fadeIn("up", 0.2)}
+initial="hidden"
+whileInView={"show"}
 
+>
         <div className="w-4/6 sm:w-full text-center" >
+
           <h1 className="tracking-tight font-bold  text-black  lg:text-[46px] text-[33px]">Network Partner Interface</h1>
           <br />
           <p className="text-gray-500 text-[18px] lg:text-[22px] lg:leading-[35px] leading-[30px] font-regular text-justify ">
@@ -16,10 +27,19 @@ function service() {
 
         </div>
 
+        </motion.div>
+        </AnimatePresence>
+
         <div className="flex flex-col md:flex-row 2xl:mt-20 mt-0 ">
 
 
           <div className="w-full xl:w-1/2 my-4 flex items-center justify-around">
+          <AnimatePresence>
+<motion.div
+variants={fadeIn("right", 0.2)}
+initial="hidden"
+whileInView={"show"}
+>
             <div className="w-full  my-4 flex items-center sm:justify-left">
               <div className="xl:w-4/6 w-full p-5">
                 <h1 className="tracking-tight font-bold text-black xl:text-[36px]  text-[30px]  xl:text-left text-center mb-8">Ambassador App</h1>
@@ -31,9 +51,21 @@ function service() {
 
               </div>
             </div>
+            </motion.div>
+            </AnimatePresence>
           </div>
+    
+
           <div className="w-full xl:w-1/2 flex justify-end md:justify-center sm:justify-center">
+          <AnimatePresence>
+<motion.div
+variants={fadeIn("left", 0.2)}
+initial="hidden"
+whileInView={"show"}
+>
             <img className="object-contain 2xl:h-auto md:h-[500px] sm:h-[400px]" src="/techonolgy/Group 481811 (4).png" alt="Robot Group" />
+            </motion.div>
+            </AnimatePresence>
           </div>
         </div>
       </main>

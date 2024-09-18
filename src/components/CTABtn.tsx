@@ -1,7 +1,21 @@
+
+'use client'
+import React from 'react'
+import {motion, AnimatePresence} from 'framer-motion'
+
+import {fadeIn} from '@/app/animation/variant'
 import Link from 'next/link';
 
 export default function CTABtn() {
   return (
+
+    <motion.div
+    variants={fadeIn("right", 0.8
+      
+    )}
+    initial="hidden"
+    transition={{ type: "spring", stiffness: 100 }}
+    whileInView={"show"}>
     <Link
       href={'#contact'}
       className="flex items-center justify-between gap-5 px-12 2xl:h-[47px] xl:h-[47px] md:h-[47px]  sm:h-[35px] rounded-full bg-primary text-white font-sens 2xl:text-[20px] hover:ring-2 ring-primary hover:bg-transparent hover:text-primary transition-all duration-300"
@@ -20,5 +34,6 @@ export default function CTABtn() {
         />
       </svg> */}
     </Link>
+    </motion.div>
   );
 }

@@ -1,17 +1,24 @@
+'use client'
 import React from 'react'
+import {motion, AnimatePresence} from 'framer-motion'
+
+import {fadeIn} from '@/app/animation/variant'
 
 function Header() {
   return (
     <div>
 
-    <div className='2xl:h-[750px] xl:h-[750px] md:h-[550px] sm:h-[50%]  w-full bg-cover bg-center xl:py-40  mb-10 bg-team' >
+    <div  className='2xl:h-[750px] xl:h-[750px] md:h-[550px] sm:h-[50%]  w-full bg-cover bg-center xl:py-40  mb-10 bg-team' >
 
 <div className="flex flex-col items-start xl:pt-[100px] lg:pt-[200px] md:pt-[260px] sm:pt-[50px]">
-<h1 className="font-bold 2xl:pl-[220px] xl:pl-[70px] sm:pl-[50px]   xl:text-[204px] lg:text-[150px] md:text-[125px] sm:text-[70px] xl:leading-[237px] 2xl:leading-[237px] md:leading-[140px] leading-[130px] lg:leading-[169px]  sm:leading-[100px] text-white ">
+<motion.h1
+    variants={fadeIn("right", 0.5)}
+    initial="hidden"
+    whileInView={"show"} className="font-bold 2xl:pl-[220px] xl:pl-[70px] sm:pl-[50px]   xl:text-[204px] lg:text-[150px] md:text-[125px] sm:text-[70px] xl:leading-[237px] 2xl:leading-[237px] md:leading-[140px] leading-[130px] lg:leading-[169px]  sm:leading-[100px] text-white ">
                     Meet the <br/>Nexify <br/><span className='md:text-black text-white'>Team!</span>
 
 
-                </h1> 
+                </motion.h1> 
 
         </div>
         </div>
