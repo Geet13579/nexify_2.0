@@ -11,7 +11,7 @@ export default function Header() {
 
    
 
-    <div className='xl:h-[70vh] sm:h-[50vh]  w-full bg-cover bg-center 3xl:px-[19rem] 2xl:px-60 2xl:py-20 xl:p-20  md:p-10  sm:p-5'  style={{ backgroundImage: `url('/Hero Section (1).png')`}}>
+    <div className='xl:h-[70vh] sm:h-[50vh] motion-safe:animate-fadeIn  w-full bg-cover bg-center 3xl:px-[19rem] 2xl:px-60 2xl:py-20 xl:p-20  md:p-10  sm:p-5'  style={{ backgroundImage: `url('/Hero Section (1).png')`}}>
 
 <div  className="flex flex-col items-start max-w-xl  2xl:leading-[54px] sm:pt-[100px] 2xl:pl-[18px] sm:pl-[10px] ">
 <motion.h1
