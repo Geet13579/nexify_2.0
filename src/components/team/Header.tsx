@@ -8,7 +8,7 @@ function Header() {
   return (
     <div>
 
-    <div  className='2xl:h-[750px] xl:h-[750px] md:h-[550px] sm:h-[50%]  w-full bg-cover bg-center xl:py-40  mb-10 bg-team' >
+    <div  className='2xl:h-[750px] xl:h-[750px] md:h-[550px] motion-safe:animate-fadeIn sm:h-[50%]  w-full bg-cover bg-center xl:py-40  mb-10 bg-team' >
 
 <div className="flex flex-col items-start xl:pt-[100px] lg:pt-[200px] md:pt-[260px] sm:pt-[50px]">
 <motion.h1

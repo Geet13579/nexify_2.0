@@ -39,15 +39,25 @@ function about() {
                   </div>
                   <div className='w-full '>
                     <ul className='flex flex-row '>
-                      <li className='mr-5'>
-                        <img src="/social_media/insta.png"   />
+                    <li className='mr-5'>
+                      <a href='https://www.instagram.com/nexifyworld.in/' target="blank">
+
+                        <img src="/social_media/insta.png" />
+                        </a>
                       </li>
 
                       <li className='mr-5'>
-                        <img src="/social_media/linkdin.png" />
+                      <a href='https://www.facebook.com/profile.php?id=61564470342360/' target="blank">
+
+                        <img src="/social_media/Group 481858.png" />
+                        </a>
                       </li>
+
                       <li className='mr-5'>
-                        <img src="/social_media/twitter.png" />
+                      <a href='https://www.linkedin.com/company/nexify-world-explore-the-ease/' target="blank">
+
+                        <img src="/social_media/linkdin.png" />
+                        </a>
                       </li>
 
                     </ul>
@@ -75,15 +85,25 @@ function about() {
                   </div>
                   <div className='w-full xl:w-[70%]'>
                     <ul className='flex flex-row '>
-                      <li className='mr-5'>
-                        <img src="/social_media/insta.png"   />
+                    <li className='mr-5'>
+                      <a href='https://www.instagram.com/nexifyworld.in/' target="blank">
+
+                        <img src="/social_media/insta.png" />
+                        </a>
                       </li>
 
                       <li className='mr-5'>
-                        <img src="/social_media/linkdin.png" />
+                      <a href='https://www.facebook.com/profile.php?id=61564470342360/' target="blank">
+
+                        <img src="/social_media/Group 481858.png" />
+                        </a>
                       </li>
+
                       <li className='mr-5'>
-                        <img src="/social_media/twitter.png" />
+                      <a href='https://www.linkedin.com/company/nexify-world-explore-the-ease/' target="blank">
+
+                        <img src="/social_media/linkdin.png" />
+                        </a>
                       </li>
 
                     </ul>
@@ -129,17 +149,26 @@ function about() {
                   </div>
                   <div className='2xl:w-[50%] md:w-full'>
                     <ul className='flex flex-row '>
-                      <li className='mr-5'>
+                    <li className='mr-5'>
+                      <a href='https://www.instagram.com/nexifyworld.in/' target="blank">
+
                         <img src="/social_media/insta.png" />
+                        </a>
                       </li>
 
                       <li className='mr-5'>
+                      <a href='https://www.facebook.com/profile.php?id=61564470342360/' target="blank">
+
+                        <img src="/social_media/Group 481858.png" />
+                        </a>
+                      </li>
+
+                      <li className='mr-5'>
+                      <a href='https://www.linkedin.com/company/nexify-world-explore-the-ease/' target="blank">
+
                         <img src="/social_media/linkdin.png" />
+                        </a>
                       </li>
-                      <li className='mr-5'>
-                        <img src="/social_media/twitter.png" />
-                      </li>
-
                     </ul>
                   </div>
                 </div>
@@ -171,14 +200,24 @@ function about() {
                   <div className='2xl:w-[50%] md:w-full'>
                     <ul className='flex flex-row '>
                       <li className='mr-5'>
+                      <a href='https://www.instagram.com/nexifyworld.in/' target="blank">
+
                         <img src="/social_media/insta.png" />
+                        </a>
                       </li>
 
                       <li className='mr-5'>
-                        <img src="/social_media/linkdin.png" />
+                      <a href='https://www.facebook.com/profile.php?id=61564470342360/' target="blank">
+
+                        <img src="/social_media/Group 481858.png" />
+                        </a>
                       </li>
+
                       <li className='mr-5'>
-                        <img src="/social_media/twitter.png" />
+                      <a href='https://www.linkedin.com/company/nexify-world-explore-the-ease/' target="blank">
+
+                        <img src="/social_media/linkdin.png" />
+                        </a>
                       </li>
 
                     </ul>

@@ -137,20 +137,20 @@ function Services() {
                                                             </a>
                                                         </li>
                                                         <li className='mr-5'>
-                                                            <a href='/#' target="blank">
-                                                                <img src="/social_media/google.png" className='xl:h-auto h-[40px]' />
+                                                            <a href='https://www.facebook.com/profile.php?id=61564470342360' target="blank">
+                                                                <img src="/social_media/Group 481858.png" className='xl:h-auto h-[40px]' />
                                                             </a>
                                                         </li>
                                                         <li className='mr-5'>
-                                                            <a href='https://www.linkedin.com/company/nexify-world/' target="blank">
+                                                            <a href='https://www.linkedin.com/company/nexify-world-explore-the-ease/' target="blank">
                                                                 <img src="/social_media/linkdin.png" className='xl:h-auto h-[40px]' />
                                                             </a>
                                                         </li>
-                                                        <li className='mr-5'>
+                                                        {/* <li className='mr-5'>
                                                             <a href='/#' target="blank">
-                                                                <img src="/social_media/twitter.png" className='xl:h-auto h-[40px]' />
+                                                                <img src="/social_media/facebook.png" className='xl:h-[40px] h-[40px]' />
                                                             </a>
-                                                        </li>
+                                                        </li> */}
 
                                                     </ul>
                                                 </li>
