@@ -1,31 +1,32 @@
 'use client'; // Place this at the very top
 import { motion, AnimatePresence } from 'framer-motion'
+import emailjs from '@emailjs/browser';
 
 import { fadeIn } from '@/app/animation/variant'
-import { useEffect, useState } from 'react';
+import { useEffect, useState,useRef  } from 'react';
 
 function Services() {
 
-    const [formData, setFormData] = useState({
-        first_name: '',
-        last_name: '',
-        email: '',
-        message: '',
-        phone_number: '',
+    const form = useRef<HTMLFormElement>(null);
 
-    });
-    const handleChange = (event: any) => {
-        setFormData({ ...formData, [event.target.name]: event.target.value });
-    };
-
-
-    const submitHandler = (e: any) => {
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // sendEmail(formData);
-        console.log('formData', formData)
-        setFormData({ first_name: '', last_name: '', email: '', message: '', phone_number: '' });
+       
+        if (form.current) {
+            emailjs
+              .sendForm('service_08byzgg', 'template_siyp7zg', form.current, {
+                publicKey: 'nVC1p74hwvbZFWz7E',
+              })
+              .then(
+                () => {
+                  console.log('SUCCESS!');
+                },
+                (error) => {
+                  console.log('FAILED...', error.text);
+                },
+              );
+        }
     };
-
 
     return (
         <div id="contact">
@@ -69,8 +70,8 @@ function Services() {
 
 
                                                 <li className='flex rounded-lg border-gray-400 flex border-[1px] w-[240px] h-[50px] justify-evenly items-center xl:text-[20px] mb-5 mt-10 text-[18px] font-regular '><img src="/phone-call (7).png" className='h-[30px] w-[30px]' /> +91 9625746011</li>
-                                                <li className='flex rounded-lg border-gray-400 flex border-[1px] w-[300px] h-[50px] justify-evenly items-center xl:text-[20px] mb-5 text-[18px] font-regular'><img src="/mail (3) 1.png" className='h-[30px] w-[30px]' /> partner@nexifyworld.in</li>
-                                                <li className='flex rounded-lg border-gray-400 flex border-[1px] lg:w-[100%] w-[70%]  h-[50px] justify-evenly items-center lg:px-6 px-8  xl:py-10 py-12 xl:text-[20px] mb-8  leading-[30px]  text-[18px] font-regular'><img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[30px] mr-[25px]' /><span>Mohan Cooperative Estate, Industrial Area, New Delhi - 110044</span></li>
+                                                <li className='flex rounded-lg border-gray-400 flex border-[1px] w-[300px] h-[50px] justify-evenly items-center xl:text-[20px] mb-5 text-[18px] font-regular'><img src="/mail (3) 1.png" className='h-[30px] w-[30px]' />nitin@nexifyworld.com</li>
+                                                <li className='flex rounded-lg border-gray-400 flex border-[1px] lg:w-[100%] md:w-[70%]  sm:w-[100%] h-[50px] justify-evenly items-center lg:px-6 px-8  xl:py-10 py-12 xl:text-[20px] mb-8  leading-[30px]  text-[18px] font-regular'><img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[30px] mr-[25px]' /><span>Mohan Cooperative Estate, Industrial Area, New Delhi - 110044</span></li>
 
 
 
@@ -179,20 +180,20 @@ function Services() {
                                         <header className=" leading-tight p-10 md:p-8 sm:p-4">
                                             <h1 className='text-white text-[40px]  xl:text-[59px] font-bold text-center ' >Get in Touch</h1>
                                             <p className='text-white  text-[18px]  xl:text-[24px]  font-regular  text-center py-4 mb-10' >You can reach us anytime</p>
-                                            <form className="w-full max-w-lg contents flex-contents" onSubmit={submitHandler}>
+                                            <form className="w-full max-w-lg contents flex-contents" ref={form}  onSubmit={sendEmail}>
                                                 <div className="flex flex-wrap -mx-3 mb-6">
                                                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                                         <label className="block  tracking-wide text-white text-[18px] font-bold mb-2" htmlFor="grid-first-name">
                                                             First Name
                                                         </label>
-                                                        <input onChange={handleChange} name="first_name" className="font-regular  text-[16px]  placeholder-white placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="text" placeholder="First Name" />
+                                                        <input  name="first_name" className="font-regular  text-[16px]  placeholder-white placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="text" placeholder="First Name" />
 
                                                     </div>
                                                     <div className="w-full md:w-1/2 px-3">
                                                         <label className="block  tracking-wide text-white text-[18px] font-bold mb-2" htmlFor="grid-last-name">
                                                             Last Name
                                                         </label>
-                                                        <input onChange={handleChange} name="last_name" className="font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="text" placeholder="Last Name" />
+                                                        <input  name="last_name" className="font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="text" placeholder="Last Name" />
                                                     </div>
                                                 </div>
                                                 <div className="flex flex-wrap -mx-3 mb-6">
@@ -200,7 +201,7 @@ function Services() {
                                                         <label className="block  tracking-wide text-white text-[18px] font-bold mb-2" htmlFor="grid-password">
                                                             Email
                                                         </label>
-                                                        <input onChange={handleChange} name="email" className="font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="text" placeholder="Email" />
+                                                        <input  name="email" className="font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="text" placeholder="Email" />
 
 
                                                     </div>
@@ -211,7 +212,7 @@ function Services() {
                                                         <label className="block  tracking-wide text-white text-[18px] font-bold mb-2" htmlFor="grid-password">
                                                             Phone Number
                                                         </label>
-                                                        <input onChange={handleChange} name="phone_number" className=" font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="number" placeholder="IND | 123456789" />
+                                                        <input  name="phone_number" className=" font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" type="number" placeholder="IND | 123456789" />
 
 
                                                     </div>
@@ -223,7 +224,7 @@ function Services() {
                                                         <label className="block  tracking-wide text-white text-[18px] font-bold mb-2" htmlFor="grid-password">
                                                             Message
                                                         </label>
-                                                        <textarea onChange={handleChange} name="message" className=" font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" placeholder="Type a Message....." />
+                                                        <textarea  name="message" className=" font-regular placeholder-white  text-[16px]  placeholder-opacity-100 appearance-none block w-full bg-transparent text-white border border-white-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-transparent" id="grid-first-name" placeholder="Type a Message....." />
 
 
                                                     </div>

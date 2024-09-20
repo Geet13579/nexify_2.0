@@ -77,7 +77,7 @@ function about() {
             <article className="overflow-hidden rounded-lg ">
 
               <header className=" leading-tight p-10 md:p-0 sm:p-0">
-                <img className="object-contain h-[492px] w-[492px]" src="/our_team/Group 481809 (9).png" alt="Robot Group" />
+                <img className="object-contain h-[492px] w-[492px]" src="/our_team/Group 481809 (20).png" alt="Robot Group" />
                 <div className='flex flex-row mt-10 lg:hidden block justify-around'>
                   <div className="w-full ">
                     <p className='xl:text-[24px] text-[18px] pb-2 font-medium'>Priti Arya</p>

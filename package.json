@@ -1,6 +1,7 @@
 {
   "name": "nexify",
   "version": "0.1.0",
+  
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.5.4",
     "next": "14.2.8",
     "react": "^18",
