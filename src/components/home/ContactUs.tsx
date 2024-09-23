@@ -70,7 +70,8 @@ function Services() {
 
 
                                                 <li className='flex rounded-lg border-gray-400 flex border-[1px] w-[240px] h-[50px] justify-evenly items-center xl:text-[20px] mb-5 mt-10 text-[18px] font-regular '><img src="/phone-call (7).png" className='h-[30px] w-[30px]' /> +91 9625746011</li>
-                                                <li className='flex rounded-lg border-gray-400 flex border-[1px] w-[300px] h-[50px] justify-evenly items-center xl:text-[20px] mb-5 text-[18px] font-regular'><img src="/mail (3) 1.png" className='h-[30px] w-[30px]' />nitin@nexifyworld.com</li>
+                                                <li className='flex rounded-lg border-gray-400 flex border-[1px] w-[300px] h-[50px] justify-evenly items-center xl:text-[20px] mb-5 text-[18px] font-regular'><img src="/mail (3) 1.png" className='h-[30px] w-[30px]' />partner@nexifyworld.in</li>
+                                                
                                                 <li className='flex rounded-lg border-gray-400 flex border-[1px] lg:w-[100%] md:w-[70%]  sm:w-[100%] h-[50px] justify-evenly items-center lg:px-6 px-8  xl:py-10 py-12 xl:text-[20px] mb-8  leading-[30px]  text-[18px] font-regular'><img src="/map-pin (6) 1 (1).png" className='h-[30px] w-[30px] mr-[25px]' /><span>Mohan Cooperative Estate, Industrial Area, New Delhi - 110044</span></li>
 
 
