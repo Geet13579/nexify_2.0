@@ -62,10 +62,10 @@ function Services() {
     return (
         <div>
 
-            <main className=" bg-white 2xl:px-60 sm:px-5 md:px-10   h-auto" id="technology">
+            <main className=" bg-white 2xl:px-60 sm:px-5 md:px-20   h-auto" id="technology">
 
 
-                <div className="w-full flex  ">
+                <div className="w-full flex">
 
 
                     <div className="w-full ">

@@ -14,17 +14,24 @@ function Services() {
        
         if (form.current) {
             emailjs
-              .sendForm('service_08byzgg', 'template_siyp7zg', form.current, {
-                publicKey: 'nVC1p74hwvbZFWz7E',
+              .sendForm('service_3uyyj2m', 'template_ttcrw0n', form.current, {
+                publicKey: 'cf0rzmqb24emmCEsx',
               })
               .then(
                 () => {
                   console.log('SUCCESS!');
+                  
+                  
+
                 },
                 (error) => {
                   console.log('FAILED...', error.text);
                 },
               );
+              alert("Thank you for getting in touch!")
+              form.current.reset();
+
+
         }
     };
 

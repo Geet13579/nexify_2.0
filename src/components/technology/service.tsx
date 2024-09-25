@@ -8,7 +8,7 @@ import {fadeIn} from '@/app/animation/variant'
 function service() {
   return (
     <>
-      <main className=" 3xl:px-[20rem] 2xl:px-[15rem] 2xl:px-60 sm:px-5 md:px-10 mt-10  h-50 ">
+      <main className=" 3xl:px-[20rem] 2xl:px-[15rem] 2xl:px-60 sm:px-5 md:px-20 mt-10  h-50 ">
       <AnimatePresence>
 <motion.div
 variants={fadeIn("up", 0.2)}
@@ -41,7 +41,7 @@ initial="hidden"
 whileInView={"show"}
 >
             <div className="w-full  my-4 flex items-center sm:justify-left">
-              <div className="xl:w-4/6 w-full p-5">
+              <div className="xl:w-4/6 w-full ">
                 <h1 className="tracking-tight font-bold text-black xl:text-[36px]  text-[30px]  xl:text-left text-center mb-8">Ambassador App</h1>
 
                 <p className="text-[#211E1E] mt-2 font-regular  xl:text-[20px] lg:leading-[33px] text-[18px] leading-[33px] text-justify ">

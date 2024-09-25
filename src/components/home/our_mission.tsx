@@ -5,7 +5,7 @@ export default function Solution() {
     <>
 
 
-      <main className="flex flex-col lg:flex-row   3xl:px-[20rem] 2xl:px-60 xl:px-5  sm:px-0 lg:py-5 py-0  h-50 ">
+      <main className="flex flex-col lg:flex-row   3xl:px-[20rem] 2xl:px-60 xl:px-20  sm:px-0 lg:py-5 py-0  h-50 ">
 
         <div className="w-full xl:w-1/2 lg:my-4 my-0 flex items-center xl:justify-start justify-center">
 
@@ -28,7 +28,7 @@ export default function Solution() {
       </main>
 
 
-      <main className="flex flex-col-reverse   lg:flex-row    3xl:px-[20rem] 2xl:px-60  xl:px-5 sm:px-0  lg:py-5 py-0   h-50 ">
+      <main className="flex flex-col-reverse   lg:flex-row    3xl:px-[20rem] 2xl:px-60 xl:px-20 sm:px-0  lg:py-5 py-0   h-50 ">
 
         <div className="w-full  my-4 flex items-center sm:justify-center">
           <div className=" w-full p-5">
